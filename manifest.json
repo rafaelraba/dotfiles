@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "source": "files/.agents/skills/_shared/README.md",
+      "target": ".agents/skills/_shared/README.md",
+      "sha256": "2fc179e025602c358b40b27f02420f849be2ee25660427ce8aa2522280b26129",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/engram-convention.md",
+      "target": ".agents/skills/_shared/engram-convention.md",
+      "sha256": "93dbc9b0c51bd4fb395126f540e9f1d5dca5f27d1dd54c856d742e2cfac94ab6",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/openspec-convention.md",
+      "target": ".agents/skills/_shared/openspec-convention.md",
+      "sha256": "c95f942547b79c4917929546ccfe191f69b618e43db86304cc2d8dc56812a5c7",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/persistence-contract.md",
+      "target": ".agents/skills/_shared/persistence-contract.md",
+      "sha256": "6526afd79036174e59e98aee0fb0c4a5d1381e6f221704cf950dda98cc31490f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/research-lifecycle.md",
+      "target": ".agents/skills/_shared/research-lifecycle.md",
+      "sha256": "5076805762a85f03a177e07af2160b2e742f334d86b4b016853398c43ed1504c",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/review-ledger-contract-pi.md",
+      "target": ".agents/skills/_shared/review-ledger-contract-pi.md",
+      "sha256": "e8e4d38638126ecd2b73a2e6595fb62162820d03bea97c8006591c19a65dabbf",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/review-ledger-contract.md",
+      "target": ".agents/skills/_shared/review-ledger-contract.md",
+      "sha256": "34be28f45f3078439c7249cdb53d8661aa81a55871f13afaa733c88f937ee975",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/sdd-orchestrator-sections.md",
+      "target": ".agents/skills/_shared/sdd-orchestrator-sections.md",
+      "sha256": "e7204af1ab925a4b254cf85ab0850ad2b7e77bd7ac25edbed66d0db9d55451d3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/sdd-phase-common.md",
+      "target": ".agents/skills/_shared/sdd-phase-common.md",
+      "sha256": "40cedf3e720d24699828f1a5931aa9dfe93df423435bb300d258d78044571f39",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/sdd-status-contract.md",
+      "target": ".agents/skills/_shared/sdd-status-contract.md",
+      "sha256": "c9bd4385a1b8483334c5ce92f23c6c73f4c8d775f87b4d3e75d5ea7c89dffc54",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/_shared/skill-resolver.md",
+      "target": ".agents/skills/_shared/skill-resolver.md",
+      "sha256": "5b6f893c770bb9e3c9bc647f5595b3cfa996890f34c460ddd3094f8180797dfb",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/branch-pr/SKILL.md",
+      "target": ".agents/skills/branch-pr/SKILL.md",
+      "sha256": "8553fdde3397c7dc1c2fda2b4ca848baf5d9185d0db65635b151755c4e627dc8",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/chained-pr/SKILL.md",
+      "target": ".agents/skills/chained-pr/SKILL.md",
+      "sha256": "3307bfceb9a0f40d0ddd885e00cfd3851eabc9c9126f82caaa2c3e54fa68b3f8",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/chained-pr/references/chaining-details.md",
+      "target": ".agents/skills/chained-pr/references/chaining-details.md",
+      "sha256": "09534b2a10a6819721cbb4b08a59bcb859b2859e65bb2977c7b979a2307e10f3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/cognitive-doc-design/SKILL.md",
+      "target": ".agents/skills/cognitive-doc-design/SKILL.md",
+      "sha256": "80dcaeca45c35e830939ef5440ca270b147f6370e4afcb47cdab762097f8cde0",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/comment-writer/SKILL.md",
+      "target": ".agents/skills/comment-writer/SKILL.md",
+      "sha256": "cb980612f7237b31a4afea87899275ba20f1f621ba237ecd4a3b440f0cf2e6da",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/diagnose-crash/SKILL.md",
+      "target": ".agents/skills/diagnose-crash/SKILL.md",
+      "sha256": "63e9ea3f54e75ad1d4244be585b57a8bdb2e02aad64f6224678f6ef7f241eca9",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/diagnose-crash/reporting.md",
+      "target": ".agents/skills/diagnose-crash/reporting.md",
+      "sha256": "c0d5bc6f0278bf7eb60af9cdf03fde563fa23063863167168529b66cb9535edc",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/gentle-ai-bench/SKILL.md",
+      "target": ".agents/skills/gentle-ai-bench/SKILL.md",
+      "sha256": "49ac672887b4afe88b107de17edd8c4dff34bc4ada54903bcd45a68532dcc91e",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/go-testing/SKILL.md",
+      "target": ".agents/skills/go-testing/SKILL.md",
+      "sha256": "87205f2eff2f5dad905117e0fe7545ed432b728522ee742755fd25b22b612df3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/go-testing/references/examples.md",
+      "target": ".agents/skills/go-testing/references/examples.md",
+      "sha256": "4db924d33425f317d5cc0b5b8881c4015bdc0193e3c2a218939352ae85cc369e",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/issue-creation/SKILL.md",
+      "target": ".agents/skills/issue-creation/SKILL.md",
+      "sha256": "99beff12891c616f6949ddbfd5192f537f5b49c9692642e5f4cfbdb6c556f2b4",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/issue-creation/references/delegated-workflow-actions.md",
+      "target": ".agents/skills/issue-creation/references/delegated-workflow-actions.md",
+      "sha256": "8bc27e680e31cc92ed3972d9e5ebf64a711d81567247540b0222111a61383cd9",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/judgment-day/SKILL.md",
+      "target": ".agents/skills/judgment-day/SKILL.md",
+      "sha256": "ac2a4fcfd762d8e3a873742f05a71287f96294f5063d740957f81b41ff8b8486",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/judgment-day/references/prompts-and-formats.md",
+      "target": ".agents/skills/judgment-day/references/prompts-and-formats.md",
+      "sha256": "583f50d14a7d6229056c2df49868f12cb2d44c8da0c4bf331e61973d79620de5",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/SKILL.md",
+      "target": ".agents/skills/omarchy/SKILL.md",
+      "sha256": "a8d88cfbb12e65f6bae1be57dfaeb4a368d313d842911635302752ec2d06adbe",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/capture.md",
+      "target": ".agents/skills/omarchy/capture.md",
+      "sha256": "6a2d9dad19ee614f600fefcff4eef493389cb750d7fffc44be67e034eac0a96e",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/contributing.md",
+      "target": ".agents/skills/omarchy/contributing.md",
+      "sha256": "469920b9dabcce0f392ce45d09a1672c4e2dd3789f5bfc4489b4c6e462dca9c6",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/hooks.md",
+      "target": ".agents/skills/omarchy/hooks.md",
+      "sha256": "9bffaac7f1e0b8666729e82d0eb43b2a03680166c5c8f972ee3a7285b317386a",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/hyprland.md",
+      "target": ".agents/skills/omarchy/hyprland.md",
+      "sha256": "da496e069392ce60599a6d745bb68d4a5f770fe72634f4f64a9a8d75b8fbacd4",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/plugins.md",
+      "target": ".agents/skills/omarchy/plugins.md",
+      "sha256": "1bec65633bb5b0b2c7582b2ab38046aa43d1ac692bd50e48d548701519d4ad55",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy/theming.md",
+      "target": ".agents/skills/omarchy/theming.md",
+      "sha256": "2122773366e589c36ddd9a4b74b9bb96da96190b5f1434197e0a1ffad0942d36",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/rdd-defect-workflow/SKILL.md",
+      "target": ".agents/skills/rdd-defect-workflow/SKILL.md",
+      "sha256": "7dcabfdf0aee1ddc9e509107b8b58b96ec6e0b9428732f7fe621001847e2a405",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-apply/SKILL.md",
+      "target": ".agents/skills/sdd-apply/SKILL.md",
+      "sha256": "9c1e86609a2c691a4288d81adf7c54f8557ec3565c5088c991a06c5e601c7f3a",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-apply/strict-tdd.md",
+      "target": ".agents/skills/sdd-apply/strict-tdd.md",
+      "sha256": "2b0340bfa1160db7f609a4e1b6a24bbd3a1b1a8347b2b65d400865c104fdd237",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-archive/SKILL.md",
+      "target": ".agents/skills/sdd-archive/SKILL.md",
+      "sha256": "6b0754cee12494490ec49e13dedf53b5e24d0188b7499c9eff1238418809b16b",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-design/SKILL.md",
+      "target": ".agents/skills/sdd-design/SKILL.md",
+      "sha256": "1228f953145a59c2f9755023dc82986aa7cbcffda920cc673e379efe2c8aad8b",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-design/references/threat-matrix.md",
+      "target": ".agents/skills/sdd-design/references/threat-matrix.md",
+      "sha256": "77cffeb7f4c2146d77694b0b5a8baae3d57c9f048bccc9670951f4235531a5fc",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-explore/SKILL.md",
+      "target": ".agents/skills/sdd-explore/SKILL.md",
+      "sha256": "6bc9385cbdbaf0da7515fb25967ad5835e85ec57534781e614b773c4fce23b0a",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-init/SKILL.md",
+      "target": ".agents/skills/sdd-init/SKILL.md",
+      "sha256": "6de008c41fa2cdc6ba71dcd5ca8a7f7810c0b566c06f336d86573138e0917701",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-init/references/init-details.md",
+      "target": ".agents/skills/sdd-init/references/init-details.md",
+      "sha256": "c983a29a6b07d487bb10fa5e9104a8e1ff91501ff31e563235ba58fdee32f06f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-onboard/SKILL.md",
+      "target": ".agents/skills/sdd-onboard/SKILL.md",
+      "sha256": "0e15efbe72add5da2bdffa016d97191216a21014dc7b5212d4984dddd85f65cd",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-propose/SKILL.md",
+      "target": ".agents/skills/sdd-propose/SKILL.md",
+      "sha256": "ea8b5d8c5ad3db0d94af32cbd628904224412daa716fb959025c2eb34945dd50",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-research/SKILL.md",
+      "target": ".agents/skills/sdd-research/SKILL.md",
+      "sha256": "69c1b40e08024be0d47b2b37625e81fd4fc4e6dd100e54fbb296b70eafb026ed",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-spec/SKILL.md",
+      "target": ".agents/skills/sdd-spec/SKILL.md",
+      "sha256": "1294f4eb31cfd6fde44978acbe10325f7995ccc9e1f8bed4b5a4c591c72043a3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-tasks/SKILL.md",
+      "target": ".agents/skills/sdd-tasks/SKILL.md",
+      "sha256": "0b5d4f801450fec790a6885515055f2767d49c06f89a6a3ff4bcdd9475cf2391",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-verify/SKILL.md",
+      "target": ".agents/skills/sdd-verify/SKILL.md",
+      "sha256": "fdf1d100366a01e57c2f79b7d8726e96ee96a2b7f2729259e496ab03f0e40c94",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-verify/references/report-format.md",
+      "target": ".agents/skills/sdd-verify/references/report-format.md",
+      "sha256": "5c5834980271d463a82d5d943ba39027fe54e0e9b33bb6437496690bd5f0830d",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/sdd-verify/strict-tdd-verify.md",
+      "target": ".agents/skills/sdd-verify/strict-tdd-verify.md",
+      "sha256": "7024d43a3a6f2ad1b1005c24b4555196213cd9d1aceb59a00136bf3f54b31e73",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/skill-creator/SKILL.md",
+      "target": ".agents/skills/skill-creator/SKILL.md",
+      "sha256": "2e560aec25d3e6f880626b894333c141c7dd98e6a0f3c35af9693b6e8538f357",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/skill-creator/references/skill-style-guide.md",
+      "target": ".agents/skills/skill-creator/references/skill-style-guide.md",
+      "sha256": "64debd903403a73fe42a953100c17378aceb9c10061bec252c5515499f12f5fa",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/skill-improver/SKILL.md",
+      "target": ".agents/skills/skill-improver/SKILL.md",
+      "sha256": "4b71aa7f242259a3e4ef8f5c87c591e154b2fe1ef5277c9d7428ba2fa678a151",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/skill-improver/references/skill-style-guide.md",
+      "target": ".agents/skills/skill-improver/references/skill-style-guide.md",
+      "sha256": "64debd903403a73fe42a953100c17378aceb9c10061bec252c5515499f12f5fa",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/skill-registry/SKILL.md",
+      "target": ".agents/skills/skill-registry/SKILL.md",
+      "sha256": "06b49f63bd311218618d79cbdaeed63f49c5853fda552ffe2c3e81e42e94f189",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/systemic-issue-triage/SKILL.md",
+      "target": ".agents/skills/systemic-issue-triage/SKILL.md",
+      "sha256": "d0562fa1e2f8cee55222a208878821936922e0ac5d8702c204ae53aa0963f014",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/work-unit-commits/SKILL.md",
+      "target": ".agents/skills/work-unit-commits/SKILL.md",
+      "sha256": "7704f3ae8cb3b7b3e8d1a8b7daa514458d8fe685b50bcdd433d5290a6ea3c2e4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/fish/conf.d/10-portable-greeting.fish",
+      "target": ".config/fish/conf.d/10-portable-greeting.fish",
+      "sha256": "40f111f5eb48b198aceb8f465ad91ac262eee84ed0d0fdf7de4ace2e6440a127",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/fish/conf.d/20-portable-aliases.fish",
+      "target": ".config/fish/conf.d/20-portable-aliases.fish",
+      "sha256": "dcd6fc46ebc112469eaf5c876f6d1b9729e74da702f828c68d13a457314f6d6d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/fish/config.fish",
+      "target": ".config/fish/config.fish",
+      "sha256": "9a51d0f29a2baea563083b160bf40957bf1753759ea81f5dd53fe7de7a522d5e",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/starship.toml",
+      "target": ".config/starship.toml",
+      "sha256": "c014337714dc2886d55c2ca2b1359f05c68934a9215faeeefd6443344a9a9f75",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/gentle-ai-explore.md",
+      "target": ".pi/agent/agents/gentle-ai-explore.md",
+      "sha256": "2bf74e3c5b1516fa981e275d3e4235252bf9a3b75fad9c36abcc90a95c3b6f74",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/gentle-ai-verify.md",
+      "target": ".pi/agent/agents/gentle-ai-verify.md",
+      "sha256": "27fd344f4f073a80e0fa00ebbc1ceb61bd5ed0f1e476ca894cf7ff68e913d363",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/gentle-ai-worker.md",
+      "target": ".pi/agent/agents/gentle-ai-worker.md",
+      "sha256": "273184559be55055c019800d91af937bc5615012619fa7f73597b9a721dc28d1",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/jd-fix-agent.md",
+      "target": ".pi/agent/agents/jd-fix-agent.md",
+      "sha256": "5286e19fbd15b11034aa26aa597ccbf3fefd6c6ee0e3fa699faf3828d58cd3a2",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/jd-judge-a.md",
+      "target": ".pi/agent/agents/jd-judge-a.md",
+      "sha256": "b49c7724edd24d4664385684c4e034373042688335491f896a2abc82b5de3638",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/jd-judge-b.md",
+      "target": ".pi/agent/agents/jd-judge-b.md",
+      "sha256": "a2b21fbf59927517cea0f4e60d775a9b68fbca89676ce9b4fabf3bbc3aaa4d35",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/review-readability.md",
+      "target": ".pi/agent/agents/review-readability.md",
+      "sha256": "6b79d2fb6ebc7a08d8f03b21dd0958722da50074cbf1c228deca4602299d2210",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/review-reliability.md",
+      "target": ".pi/agent/agents/review-reliability.md",
+      "sha256": "ff29edffc51b7bb70b11587709b693fd5e85d147ac531df0e9bb641666ac4d32",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/review-resilience.md",
+      "target": ".pi/agent/agents/review-resilience.md",
+      "sha256": "5c4a7f6f6a7a275ef58fa817212abc84c6e63a3317b52f09eba2766028cda3d3",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/agents/review-risk.md",
+      "target": ".pi/agent/agents/review-risk.md",
+      "sha256": "03d547fa435486fef20d13f0dc6be60cedd87fc37f5f5a64adfe1948687581ee",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/chains/4r-review.chain.md",
+      "target": ".pi/agent/chains/4r-review.chain.md",
+      "sha256": "7d96aabd1426a388d1bde371f141d0c3ba836cee93cd54971a28fe1204942b18",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/extensions/herdr-agent-state.ts",
+      "target": ".pi/agent/extensions/herdr-agent-state.ts",
+      "sha256": "9b1c41cd72520fc2abe5f2a2aec995c12a926cce844df472c7fd5fcae4f4dbfa",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/gentle-ai/support/strict-tdd-verify.md",
+      "target": ".pi/agent/gentle-ai/support/strict-tdd-verify.md",
+      "sha256": "ef1705bbf22a41285934705977396bc3fa2ea0bc378f74623343a467cfcb4996",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/gentle-ai/support/strict-tdd.md",
+      "target": ".pi/agent/gentle-ai/support/strict-tdd.md",
+      "sha256": "ca7a75e8e407a00e367fe0168aba6e45bd8297863b1bd199210b5ca84b562223",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/mcp.json",
+      "target": ".pi/agent/mcp.json",
+      "sha256": "0274ecb4c9f90c55d8064625f25b8292131af2c2ec5ca12b729e7d0163f0ab70",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/settings.json",
+      "target": ".pi/agent/settings.json",
+      "sha256": "81ec5c39b8be7c3cde8aafcd7b080204304b1d23a93905996224d20eba56a811",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/subagents.json",
+      "target": ".pi/agent/subagents.json",
+      "sha256": "a9cdf9f53c4acd554ca523c6fdb50686570dc02b6fbe110ab2bbd1b0c44a8b44",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/agent/themes/omarchy-system.json",
+      "target": ".pi/agent/themes/omarchy-system.json",
+      "sha256": "da922b1fcc2041e978986fa33acc9aa5daa24ab1937ddffd5a6a7ae8412ceae1",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/gentle-ai/banner.json",
+      "target": ".pi/gentle-ai/banner.json",
+      "sha256": "7bff3895f93fa006019a2e3fc1e69a9e79c0738a34ab07579f9ab8638e5cacdf",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/gentle-ai/models.json",
+      "target": ".pi/gentle-ai/models.json",
+      "sha256": "6459d95f87b40fcc94a82d587dd199a7d21a8c7e214e918b9cb6e42ef1e8f933",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/gentle-ai/persona.json",
+      "target": ".pi/gentle-ai/persona.json",
+      "sha256": "078ccbfd92df0e2fb086fe8eabdebabdd3e426354e98265c331ac45163781c88",
+      "mode": 420
+    },
+    {
+      "source": "files/.pi/gentle-ai/profiles.json",
+      "target": ".pi/gentle-ai/profiles.json",
+      "sha256": "5a50bc541cabea82532e872081910c0ce7cfa3aa7261b173e34d1eaaa9aba115",
+      "mode": 420
+    }
+  ],
+  "dependencies": {
+    "pi": {
+      "name": "@earendil-works/pi-coding-agent",
+      "version": "1.1.0",
+      "node": ">=22.19.0"
+    },
+    "packages": [
+      "npm:gentle-pi@4.0.0",
+      "npm:gentle-engram@0.4.2",
+      "npm:pi-web-access@0.38.0",
+      "npm:pi-btw@0.8.0"
+    ],
+    "mcp": {
+      "context7": "@upstash/context7-mcp@2.2.5",
+      "engram": "external executable; version not verified"
+    }
+  },
+  "redacted_fields": [],
+  "origins": {
+    ".config/fish/config.fish": "local",
+    ".config/starship.toml": "local",
+    ".pi/agent/settings.json": "local",
+    ".pi/agent/subagents.json": "local",
+    ".pi/gentle-ai/persona.json": "local",
+    ".pi/gentle-ai/banner.json": "local",
+    ".pi/gentle-ai/models.json": "local",
+    ".pi/gentle-ai/profiles.json": "local",
+    ".pi/agent/mcp.json": "local",
+    ".agents/skills/_shared/README.md": "local",
+    ".agents/skills/_shared/engram-convention.md": "local",
+    ".agents/skills/_shared/openspec-convention.md": "local",
+    ".agents/skills/_shared/persistence-contract.md": "local",
+    ".agents/skills/_shared/research-lifecycle.md": "local",
+    ".agents/skills/_shared/review-ledger-contract-pi.md": "local",
+    ".agents/skills/_shared/review-ledger-contract.md": "local",
+    ".agents/skills/_shared/sdd-orchestrator-sections.md": "local",
+    ".agents/skills/_shared/sdd-phase-common.md": "local",
+    ".agents/skills/_shared/sdd-status-contract.md": "local",
+    ".agents/skills/_shared/skill-resolver.md": "local",
+    ".agents/skills/branch-pr/SKILL.md": "local",
+    ".agents/skills/chained-pr/SKILL.md": "local",
+    ".agents/skills/chained-pr/references/chaining-details.md": "local",
+    ".agents/skills/cognitive-doc-design/SKILL.md": "local",
+    ".agents/skills/comment-writer/SKILL.md": "local",
+    ".agents/skills/diagnose-crash/SKILL.md": "Omarchy vendored resource",
+    ".agents/skills/diagnose-crash/reporting.md": "Omarchy vendored resource",
+    ".agents/skills/gentle-ai-bench/SKILL.md": "local",
+    ".agents/skills/go-testing/SKILL.md": "local",
+    ".agents/skills/go-testing/references/examples.md": "local",
+    ".agents/skills/issue-creation/SKILL.md": "local",
+    ".agents/skills/issue-creation/references/delegated-workflow-actions.md": "local",
+    ".agents/skills/judgment-day/SKILL.md": "local",
+    ".agents/skills/judgment-day/references/prompts-and-formats.md": "local",
+    ".agents/skills/omarchy/SKILL.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/capture.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/contributing.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/hooks.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/hyprland.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/plugins.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy/theming.md": "Omarchy vendored resource",
+    ".agents/skills/rdd-defect-workflow/SKILL.md": "local",
+    ".agents/skills/sdd-apply/SKILL.md": "local",
+    ".agents/skills/sdd-apply/strict-tdd.md": "local",
+    ".agents/skills/sdd-archive/SKILL.md": "local",
+    ".agents/skills/sdd-design/SKILL.md": "local",
+    ".agents/skills/sdd-design/references/threat-matrix.md": "local",
+    ".agents/skills/sdd-explore/SKILL.md": "local",
+    ".agents/skills/sdd-init/SKILL.md": "local",
+    ".agents/skills/sdd-init/references/init-details.md": "local",
+    ".agents/skills/sdd-onboard/SKILL.md": "local",
+    ".agents/skills/sdd-propose/SKILL.md": "local",
+    ".agents/skills/sdd-research/SKILL.md": "local",
+    ".agents/skills/sdd-spec/SKILL.md": "local",
+    ".agents/skills/sdd-tasks/SKILL.md": "local",
+    ".agents/skills/sdd-verify/SKILL.md": "local",
+    ".agents/skills/sdd-verify/references/report-format.md": "local",
+    ".agents/skills/sdd-verify/strict-tdd-verify.md": "local",
+    ".agents/skills/skill-creator/SKILL.md": "local",
+    ".agents/skills/skill-creator/references/skill-style-guide.md": "local",
+    ".agents/skills/skill-improver/SKILL.md": "local",
+    ".agents/skills/skill-improver/references/skill-style-guide.md": "local",
+    ".agents/skills/skill-registry/SKILL.md": "local",
+    ".agents/skills/systemic-issue-triage/SKILL.md": "local",
+    ".agents/skills/work-unit-commits/SKILL.md": "local",
+    ".pi/agent/agents/gentle-ai-explore.md": "local",
+    ".pi/agent/agents/gentle-ai-verify.md": "local",
+    ".pi/agent/agents/gentle-ai-worker.md": "local",
+    ".pi/agent/agents/jd-fix-agent.md": "local",
+    ".pi/agent/agents/jd-judge-a.md": "local",
+    ".pi/agent/agents/jd-judge-b.md": "local",
+    ".pi/agent/agents/review-readability.md": "local",
+    ".pi/agent/agents/review-reliability.md": "local",
+    ".pi/agent/agents/review-resilience.md": "local",
+    ".pi/agent/agents/review-risk.md": "local",
+    ".pi/agent/chains/4r-review.chain.md": "local",
+    ".pi/agent/extensions/herdr-agent-state.ts": "local",
+    ".pi/agent/themes/omarchy-system.json": "local",
+    ".pi/agent/gentle-ai/support/strict-tdd-verify.md": "local",
+    ".pi/agent/gentle-ai/support/strict-tdd.md": "local",
+    ".config/fish/conf.d/20-portable-aliases.fish": "reviewed Omarchy Bash alias translations"
+  },
+  "excluded": [
+    "credentials, history, sessions, caches, trust, models-store, node_modules",
+    "desktop configuration and Bash distribution runtime",
+    "inactive legacy .pi/npm/package.json pi-mcp-adapter range; no installed metadata",
+    "managed-assets runtime index; package installer may refresh managed agents"
+  ],
+  "external_requirements": [
+    "Engram executable (ENGRAM_BIN optional)",
+    "optional Herdr integration",
+    "Omarchy/crash skill commands depend on Linux/Omarchy tools"
+  ]
+}

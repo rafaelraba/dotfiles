@@ -1,0 +1,44 @@
+{
+  "model_profiles": {
+    "jd-judge-a": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "jd-judge-b": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "jd-fix-agent": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "low"
+    },
+    "gentle-ai-explore": {
+      "model": "openai-codex/gpt-6-luna",
+      "effort": "high"
+    },
+    "gentle-ai-verify": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "gentle-ai-worker": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "low"
+    },
+    "review-readability": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "review-reliability": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "review-resilience": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    },
+    "review-risk": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "effort": "high"
+    }
+  }
+}
