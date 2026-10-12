@@ -356,6 +356,18 @@
       "mode": 420
     },
     {
+      "source": "files/.config/fish/functions/h.fish",
+      "target": ".config/fish/functions/h.fish",
+      "sha256": "77ce91552e9e3ae6532c149cf5ae203e549b87c276d4808ae837e4cb7e776e9b",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/fish/functions/nvim.fish",
+      "target": ".config/fish/functions/nvim.fish",
+      "sha256": "8013dcd8a346e040b2a8244b3d2831ed3a8402068e88b39c9349e6b31cc89503",
+      "mode": 420
+    },
+    {
       "source": "files/.config/starship.toml",
       "target": ".config/starship.toml",
       "sha256": "c014337714dc2886d55c2ca2b1359f05c68934a9215faeeefd6443344a9a9f75",
@@ -513,6 +525,8 @@
   },
   "redacted_fields": [],
   "origins": {
+    ".config/fish/functions/h.fish": "local",
+    ".config/fish/functions/nvim.fish": "local",
     ".config/fish/config.fish": "local",
     ".config/starship.toml": "local",
     ".pi/agent/settings.json": "local",
