@@ -4,34 +4,6 @@
   "profiles": {
     "current": {},
     "openai": {
-      "sdd-explore": {
-        "model": "openai-codex/gpt-6-luna",
-        "thinking": "high"
-      },
-      "sdd-spec": {
-        "model": "openai-codex/gpt-6-luna",
-        "thinking": "high"
-      },
-      "sdd-design": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-verify": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-sync": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "medium"
-      },
-      "sdd-archive": {
-        "model": "openai-codex/gpt-6-luna",
-        "thinking": "max"
-      },
-      "sdd-apply": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "low"
-      },
       "jd-judge-a": {
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "high"
@@ -52,26 +24,6 @@
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "high"
       },
-      "review-refuter": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-research": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-proposal": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-tasks": {
-        "model": "openai-codex/gpt-6-luna",
-        "thinking": "high"
-      },
-      "sdd-onboard": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "medium"
-      },
       "gentle-ai-explore": {
         "model": "openai-codex/gpt-6-luna",
         "thinking": "high"
@@ -88,27 +40,107 @@
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "high"
       },
-      "review-validator": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "high"
-      },
-      "sdd-status": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "medium"
-      },
       "gentle-ai-verify": {
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "high"
-      },
-      "sdd-init": {
-        "model": "openai-codex/gpt-6.1-sol",
-        "thinking": "medium"
       },
       "orchestrator": {
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "medium"
       }
+    },
+    "claude": {
+      "jd-judge-a": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "jd-judge-b": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "jd-fix-agent": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "gentle-ai-worker": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "review-risk": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "gentle-ai-explore": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "review-readability": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "review-reliability": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "review-resilience": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "gentle-ai-verify": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      },
+      "orchestrator": {
+        "model": "claude-bridge/claude-opus-5-5",
+        "thinking": "medium"
+      }
+    },
+    "opencode-go": {
+      "jd-judge-a": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "jd-judge-b": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "jd-fix-agent": {
+        "model": "opencode-go/glm-5.3",
+        "thinking": "medium"
+      },
+      "gentle-ai-worker": {
+        "model": "opencode-go/glm-5.3",
+        "thinking": "medium"
+      },
+      "review-risk": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "gentle-ai-explore": {
+        "model": "opencode-go/glm-5.3-flash",
+        "thinking": "high"
+      },
+      "review-readability": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "review-reliability": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "review-resilience": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "gentle-ai-verify": {
+        "model": "opencode-go/deepseek-v4-pro",
+        "thinking": "high"
+      },
+      "orchestrator": {
+        "model": "opencode-go/kimi-k3.1-pro",
+        "thinking": "medium"
+      }
     }
   },
-  "active": "openai"
+  "active": "opencode-go"
 }

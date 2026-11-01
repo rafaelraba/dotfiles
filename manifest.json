@@ -14,15 +14,9 @@
       "mode": 420
     },
     {
-      "source": "files/.agents/skills/_shared/openspec-convention.md",
-      "target": ".agents/skills/_shared/openspec-convention.md",
-      "sha256": "c95f942547b79c4917929546ccfe191f69b618e43db86304cc2d8dc56812a5c7",
-      "mode": 420
-    },
-    {
       "source": "files/.agents/skills/_shared/persistence-contract.md",
       "target": ".agents/skills/_shared/persistence-contract.md",
-      "sha256": "6526afd79036174e59e98aee0fb0c4a5d1381e6f221704cf950dda98cc31490f",
+      "sha256": "e856e61b2056e1766a5529a0a3e6929997910cb36357b53a89da3533a32ceb0f",
       "mode": 420
     },
     {
@@ -34,31 +28,13 @@
     {
       "source": "files/.agents/skills/_shared/review-ledger-contract-pi.md",
       "target": ".agents/skills/_shared/review-ledger-contract-pi.md",
-      "sha256": "e8e4d38638126ecd2b73a2e6595fb62162820d03bea97c8006591c19a65dabbf",
+      "sha256": "2d7ddd99f1c739a97f4a6b3929e5e2bdddcbf69aed69356395038d90bca25b2f",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/_shared/review-ledger-contract.md",
       "target": ".agents/skills/_shared/review-ledger-contract.md",
-      "sha256": "34be28f45f3078439c7249cdb53d8661aa81a55871f13afaa733c88f937ee975",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/sdd-orchestrator-sections.md",
-      "target": ".agents/skills/_shared/sdd-orchestrator-sections.md",
-      "sha256": "e7204af1ab925a4b254cf85ab0850ad2b7e77bd7ac25edbed66d0db9d55451d3",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/sdd-phase-common.md",
-      "target": ".agents/skills/_shared/sdd-phase-common.md",
-      "sha256": "40cedf3e720d24699828f1a5931aa9dfe93df423435bb300d258d78044571f39",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/sdd-status-contract.md",
-      "target": ".agents/skills/_shared/sdd-status-contract.md",
-      "sha256": "c9bd4385a1b8483334c5ce92f23c6c73f4c8d775f87b4d3e75d5ea7c89dffc54",
+      "sha256": "fc1015619cb12b767af464d87fccce23920952631c2b42b60fbc674420818e43",
       "mode": 420
     },
     {
@@ -76,13 +52,121 @@
     {
       "source": "files/.agents/skills/chained-pr/SKILL.md",
       "target": ".agents/skills/chained-pr/SKILL.md",
-      "sha256": "3307bfceb9a0f40d0ddd885e00cfd3851eabc9c9126f82caaa2c3e54fa68b3f8",
+      "sha256": "8aba3c6ec9411851f5687aa9e42ebf9618f7dd8566acc9a64eb025f54db2244f",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/chained-pr/references/chaining-details.md",
       "target": ".agents/skills/chained-pr/references/chaining-details.md",
       "sha256": "09534b2a10a6819721cbb4b08a59bcb859b2859e65bb2977c7b979a2307e10f3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-doc-create/SKILL.md",
+      "target": ".agents/skills/codely-doc-create/SKILL.md",
+      "sha256": "ac6a287c22e4474df1e97dfe65c4fa7cd5ac64302038a5aca70391fb4239ea7b",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-doc-create/resources/documentation-guidelines.md",
+      "target": ".agents/skills/codely-doc-create/resources/documentation-guidelines.md",
+      "sha256": "0b41d6972fef4614fa16900f1fa95cff2fdba398a05e1600ed6790aaf64cd462",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-git-conventional-commit/SKILL.md",
+      "target": ".agents/skills/codely-git-conventional-commit/SKILL.md",
+      "sha256": "3da39d95b503d8aa891724ed93e4f389a3d079393ee040c1d1c2584dab16c2b7",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-git-conventional-commit/resources/commit-messages.md",
+      "target": ".agents/skills/codely-git-conventional-commit/resources/commit-messages.md",
+      "sha256": "7474b7ea9ed72bdc8a246cdd6a82affe8247297e7d3eb84b5666489317f0f4e3",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/SKILL.md",
+      "target": ".agents/skills/codely-openspec-spec-create-from-code/SKILL.md",
+      "sha256": "90c1677afe3fd5ec7c7a006274d1476e60db462ee47c1b3573a5da1c78c6968a",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md",
+      "target": ".agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md",
+      "sha256": "ac30ad8079daa943176c3fd41992187fc5bed56f910b72fe44e1ee9f74ec4939",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md",
+      "target": ".agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md",
+      "sha256": "3b1ce545bd7c434b5fe2387c1c5e96b6a956726d081050ffb875dac6c23270d6",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-github/SKILL.md",
+      "target": ".agents/skills/codely-plan-create-github/SKILL.md",
+      "sha256": "5382597cbb6bbb33de3336d8e8a873ee51ac28bab9d354a34b77e9c1c32f1a13",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-github/resources/plan-guidelines.md",
+      "target": ".agents/skills/codely-plan-create-github/resources/plan-guidelines.md",
+      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-gitlab/SKILL.md",
+      "target": ".agents/skills/codely-plan-create-gitlab/SKILL.md",
+      "sha256": "fa005beaa33114ccbc4b4277e82f9a54c3b85cda4d6e905af14e5c2838471d44",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md",
+      "target": ".agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md",
+      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-subagents/SKILL.md",
+      "target": ".agents/skills/codely-plan-create-subagents/SKILL.md",
+      "sha256": "b9475f96cd5ac789ebf67e6bde90f44532d7e3051ced7e94a7e7606952ac8a0d",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md",
+      "target": ".agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md",
+      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create/SKILL.md",
+      "target": ".agents/skills/codely-plan-create/SKILL.md",
+      "sha256": "222de7261f5ddeb1749b02c9ddf3d6476678d58f0da245305f5cd82c764075e0",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-create/resources/plan-guidelines.md",
+      "target": ".agents/skills/codely-plan-create/resources/plan-guidelines.md",
+      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-phase-implement-github/SKILL.md",
+      "target": ".agents/skills/codely-plan-phase-implement-github/SKILL.md",
+      "sha256": "80a3ed516c624961bacd681282a22139434eb27f31fcdb706c6042f15d14d7e7",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-phase-implement-gitlab/SKILL.md",
+      "target": ".agents/skills/codely-plan-phase-implement-gitlab/SKILL.md",
+      "sha256": "ab749ad5af411fe7b6aa36cf7a1c4fd430233b0e8f82776df81679ad478f8b60",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/codely-plan-phase-implement/SKILL.md",
+      "target": ".agents/skills/codely-plan-phase-implement/SKILL.md",
+      "sha256": "4fdd4103a7d7502ad857eb7f1d74922d8946b3f0eacde3f45fd0e6f772435e92",
       "mode": 420
     },
     {
@@ -100,13 +184,13 @@
     {
       "source": "files/.agents/skills/diagnose-crash/SKILL.md",
       "target": ".agents/skills/diagnose-crash/SKILL.md",
-      "sha256": "63e9ea3f54e75ad1d4244be585b57a8bdb2e02aad64f6224678f6ef7f241eca9",
+      "sha256": "0762bb8c913a9026a143ee7213caebe334654efeb0d37949aa05ddd1e2639072",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/diagnose-crash/reporting.md",
       "target": ".agents/skills/diagnose-crash/reporting.md",
-      "sha256": "c0d5bc6f0278bf7eb60af9cdf03fde563fa23063863167168529b66cb9535edc",
+      "sha256": "00f304bd6b2a55252f16f3b2c1e0881317c19722e6bbd5f956fc2114bedb442a",
       "mode": 420
     },
     {
@@ -152,39 +236,51 @@
       "mode": 420
     },
     {
+      "source": "files/.agents/skills/omarchy-app/SKILL.md",
+      "target": ".agents/skills/omarchy-app/SKILL.md",
+      "sha256": "640095363af9ac62e2991b988163d7e67500c963f03f9546b54148ee0cd8d15c",
+      "mode": 420
+    },
+    {
+      "source": "files/.agents/skills/omarchy-app/templates.md",
+      "target": ".agents/skills/omarchy-app/templates.md",
+      "sha256": "9e46554783a9af765093f37b31e85464d79d067453607f013b93c0eeae730ac6",
+      "mode": 420
+    },
+    {
       "source": "files/.agents/skills/omarchy/SKILL.md",
       "target": ".agents/skills/omarchy/SKILL.md",
-      "sha256": "a8d88cfbb12e65f6bae1be57dfaeb4a368d313d842911635302752ec2d06adbe",
+      "sha256": "16de6188d673b9e1c01fe69d1df9e787b09915e61153d5afeecb4a715aebe026",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/omarchy/capture.md",
       "target": ".agents/skills/omarchy/capture.md",
-      "sha256": "6a2d9dad19ee614f600fefcff4eef493389cb750d7fffc44be67e034eac0a96e",
+      "sha256": "8f4752ce04c653c4483ab8e6d980ba504189595bb5c8348fb2ae996b47154f0b",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/omarchy/contributing.md",
       "target": ".agents/skills/omarchy/contributing.md",
-      "sha256": "469920b9dabcce0f392ce45d09a1672c4e2dd3789f5bfc4489b4c6e462dca9c6",
+      "sha256": "d0f8cf1582bc723cdfcec75413ead37c12080de15aba4f7d5a441182d368591f",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/omarchy/hooks.md",
       "target": ".agents/skills/omarchy/hooks.md",
-      "sha256": "9bffaac7f1e0b8666729e82d0eb43b2a03680166c5c8f972ee3a7285b317386a",
+      "sha256": "eb20909dea24e5025840ac7397dbccaf85834c5d809bf37c46ce3bd8d1ceecdd",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/omarchy/hyprland.md",
       "target": ".agents/skills/omarchy/hyprland.md",
-      "sha256": "da496e069392ce60599a6d745bb68d4a5f770fe72634f4f64a9a8d75b8fbacd4",
+      "sha256": "43eeca567220c5be9f277884aad06dc994c96494146e03a52d9a68111c44d5d2",
       "mode": 420
     },
     {
       "source": "files/.agents/skills/omarchy/plugins.md",
       "target": ".agents/skills/omarchy/plugins.md",
-      "sha256": "1bec65633bb5b0b2c7582b2ab38046aa43d1ac692bd50e48d548701519d4ad55",
+      "sha256": "b751dd2917e82bfbd057004d5473fe6ede2b92bae2a6a108ff1f9c3da0ff3172",
       "mode": 420
     },
     {
@@ -197,102 +293,6 @@
       "source": "files/.agents/skills/rdd-defect-workflow/SKILL.md",
       "target": ".agents/skills/rdd-defect-workflow/SKILL.md",
       "sha256": "7dcabfdf0aee1ddc9e509107b8b58b96ec6e0b9428732f7fe621001847e2a405",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-apply/SKILL.md",
-      "target": ".agents/skills/sdd-apply/SKILL.md",
-      "sha256": "9c1e86609a2c691a4288d81adf7c54f8557ec3565c5088c991a06c5e601c7f3a",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-apply/strict-tdd.md",
-      "target": ".agents/skills/sdd-apply/strict-tdd.md",
-      "sha256": "2b0340bfa1160db7f609a4e1b6a24bbd3a1b1a8347b2b65d400865c104fdd237",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-archive/SKILL.md",
-      "target": ".agents/skills/sdd-archive/SKILL.md",
-      "sha256": "6b0754cee12494490ec49e13dedf53b5e24d0188b7499c9eff1238418809b16b",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-design/SKILL.md",
-      "target": ".agents/skills/sdd-design/SKILL.md",
-      "sha256": "1228f953145a59c2f9755023dc82986aa7cbcffda920cc673e379efe2c8aad8b",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-design/references/threat-matrix.md",
-      "target": ".agents/skills/sdd-design/references/threat-matrix.md",
-      "sha256": "77cffeb7f4c2146d77694b0b5a8baae3d57c9f048bccc9670951f4235531a5fc",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-explore/SKILL.md",
-      "target": ".agents/skills/sdd-explore/SKILL.md",
-      "sha256": "6bc9385cbdbaf0da7515fb25967ad5835e85ec57534781e614b773c4fce23b0a",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-init/SKILL.md",
-      "target": ".agents/skills/sdd-init/SKILL.md",
-      "sha256": "6de008c41fa2cdc6ba71dcd5ca8a7f7810c0b566c06f336d86573138e0917701",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-init/references/init-details.md",
-      "target": ".agents/skills/sdd-init/references/init-details.md",
-      "sha256": "c983a29a6b07d487bb10fa5e9104a8e1ff91501ff31e563235ba58fdee32f06f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-onboard/SKILL.md",
-      "target": ".agents/skills/sdd-onboard/SKILL.md",
-      "sha256": "0e15efbe72add5da2bdffa016d97191216a21014dc7b5212d4984dddd85f65cd",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-propose/SKILL.md",
-      "target": ".agents/skills/sdd-propose/SKILL.md",
-      "sha256": "ea8b5d8c5ad3db0d94af32cbd628904224412daa716fb959025c2eb34945dd50",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-research/SKILL.md",
-      "target": ".agents/skills/sdd-research/SKILL.md",
-      "sha256": "69c1b40e08024be0d47b2b37625e81fd4fc4e6dd100e54fbb296b70eafb026ed",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-spec/SKILL.md",
-      "target": ".agents/skills/sdd-spec/SKILL.md",
-      "sha256": "1294f4eb31cfd6fde44978acbe10325f7995ccc9e1f8bed4b5a4c591c72043a3",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-tasks/SKILL.md",
-      "target": ".agents/skills/sdd-tasks/SKILL.md",
-      "sha256": "0b5d4f801450fec790a6885515055f2767d49c06f89a6a3ff4bcdd9475cf2391",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-verify/SKILL.md",
-      "target": ".agents/skills/sdd-verify/SKILL.md",
-      "sha256": "fdf1d100366a01e57c2f79b7d8726e96ee96a2b7f2729259e496ab03f0e40c94",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-verify/references/report-format.md",
-      "target": ".agents/skills/sdd-verify/references/report-format.md",
-      "sha256": "5c5834980271d463a82d5d943ba39027fe54e0e9b33bb6437496690bd5f0830d",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/sdd-verify/strict-tdd-verify.md",
-      "target": ".agents/skills/sdd-verify/strict-tdd-verify.md",
-      "sha256": "7024d43a3a6f2ad1b1005c24b4555196213cd9d1aceb59a00136bf3f54b31e73",
       "mode": 420
     },
     {
@@ -322,7 +322,7 @@
     {
       "source": "files/.agents/skills/skill-registry/SKILL.md",
       "target": ".agents/skills/skill-registry/SKILL.md",
-      "sha256": "06b49f63bd311218618d79cbdaeed63f49c5853fda552ffe2c3e81e42e94f189",
+      "sha256": "bdec1ec111d349c5226f2de0a414a6e195ace19d073c81c9cdb4485c93facbc7",
       "mode": 420
     },
     {
@@ -356,6 +356,18 @@
       "mode": 420
     },
     {
+      "source": "files/.config/fish/functions/chrome-x.fish",
+      "target": ".config/fish/functions/chrome-x.fish",
+      "sha256": "00669178736139116e429f98ff3cf839b295ea8da28f44ad99b952b88a1051ea",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/fish/functions/fish_user_key_bindings.fish",
+      "target": ".config/fish/functions/fish_user_key_bindings.fish",
+      "sha256": "0e18c83ec465d08a93b250b44c879d49ba4c27c68713bb4264029c2cf01fae53",
+      "mode": 420
+    },
+    {
       "source": "files/.config/fish/functions/h.fish",
       "target": ".config/fish/functions/h.fish",
       "sha256": "77ce91552e9e3ae6532c149cf5ae203e549b87c276d4808ae837e4cb7e776e9b",
@@ -368,6 +380,288 @@
       "mode": 420
     },
     {
+      "source": "files/.config/herdr-app/keys.json",
+      "target": ".config/herdr-app/keys.json",
+      "sha256": "acf85fc934f491692f7d30f8a8a3ea36b56c561cf20f09955e35c0c5d011688b",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/layouts/terminals-graph.json",
+      "target": ".config/herdr-app/layouts/terminals-graph.json",
+      "sha256": "b9b5995f5ccf8a0bff5e9915de2eb343a9086841ef7e57b5a718ea3f326c6893",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/LICENSE",
+      "target": ".config/herdr-app/mods/git-graph/LICENSE",
+      "sha256": "8220c0f32f0d9d4ebfb1d2a12734e26bbdf1a3d2127e103b041dfefd9a4628cf",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/act.js",
+      "target": ".config/herdr-app/mods/git-graph/act.js",
+      "sha256": "9607ed3210c065717fef48287578fcf118907f28de40202625f4e1c778572bdb",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/dialog.js",
+      "target": ".config/herdr-app/mods/git-graph/dialog.js",
+      "sha256": "1722bbe127560e51102297897dbbc8297817ab044cb287e0f5d7dbdaa812d2f6",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/git.js",
+      "target": ".config/herdr-app/mods/git-graph/git.js",
+      "sha256": "d111df18ed719cf7b45552d528e0a6cab75e1ee31a23768b58eeb21fa888c213",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/graph.js",
+      "target": ".config/herdr-app/mods/git-graph/graph.js",
+      "sha256": "a0fe8770e4cd0ebf9a8f22026efcd252fa793e2474d9c48c61dceb1e1efb239b",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/LICENSE-lucide.txt",
+      "target": ".config/herdr-app/mods/git-graph/icons/LICENSE-lucide.txt",
+      "sha256": "25869d4cb36de0814aa5cf775f5312f6ce8e3749d9c381b18de2e86858c33e09",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/branch.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/branch.svg",
+      "sha256": "ab2b756edd3e1f12b4ef83a5fd635f84e1de89d830520fb00c4288ca24b0255d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/check.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/check.svg",
+      "sha256": "b530d60d6c39c3ff4aa172743239767ced4b2f1ebf3309c06dc15335a64076cc",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/cherry.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/cherry.svg",
+      "sha256": "689b82f1706a6cdfe7d355338365380ca0d05a134ae8bc0199b8eedff26b7f41",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/cloud.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/cloud.svg",
+      "sha256": "374b9a9a69c1ebf3fa5d115ae56cee812367a75e87cbfb0f1163edb99324940f",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/commit.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/commit.svg",
+      "sha256": "d2db5a02b5e86b2a973b555151aaa12981bfe9fc9158b63b8a8b6ae08e9bb38f",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/copy.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/copy.svg",
+      "sha256": "a843b3977ad6be55232c4cc4fa618f26c3d25f6901fdf2a5d1bde008583d9a27",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/fetch.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/fetch.svg",
+      "sha256": "58e4dfb3b5f8c5433cb6ed6a8f0a550d59166f45258d246306a739dedce80a23",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/folder.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/folder.svg",
+      "sha256": "1ad63c84bf9288bcba5724ee8a626aecd44ff972778d7663a3852076fadc7909",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/graph.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/graph.svg",
+      "sha256": "eb133cb50fad44be960eb83b07ab22ed52c8be9307b753738b22c4e5d8369e83",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/merge.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/merge.svg",
+      "sha256": "f8e4a1fe342b35a1f95e24919e813a7f99d9884ce6b1bc231dba3c2c1100086b",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/plus.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/plus.svg",
+      "sha256": "2b9a2e22b4c367eea96a8757ac9a358e59a5b05a435c0e12a30b27ae77ba26b4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/push.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/push.svg",
+      "sha256": "d394b6a5b8e2fd10ea403e4cf153b8126d9c241ebf4bf292f62c60efcd61d83a",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/rebase.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/rebase.svg",
+      "sha256": "ed1335306841d50a2725fdfb399c3d50b71e152652ff00f706a3bd2e79822241",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/refresh.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/refresh.svg",
+      "sha256": "432be206c20a5e00e9b2279d19e276926d1216228492a381f6c76353a21071cd",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/rename.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/rename.svg",
+      "sha256": "439e5772e3b585d45639678409226c580e633160d661be6a9e7a65f8122520bf",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/reset.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/reset.svg",
+      "sha256": "e774de36a2ad7603dbad24eff55eeb063242091cfd5b97ab52f4272900044333",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/revert.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/revert.svg",
+      "sha256": "1f35d5b8d4fb27a2c524097e46d38790db87732af6e59d3d638d86a812520885",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/stash.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/stash.svg",
+      "sha256": "2f3687c71668b8db5975d1efec56a83af75711bc77fe7743de32ceb9a66077fe",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/tag.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/tag.svg",
+      "sha256": "c14e922d8fe26974a8a74b181c8eeba0ed76658771a88a74da7451a2d03229b8",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/icons/trash.svg",
+      "target": ".config/herdr-app/mods/git-graph/icons/trash.svg",
+      "sha256": "66e0cd0adc2f7ed95886bb37c4490a7c8b93a8ec2f965d4fe8180138363e8893",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/lanes.js",
+      "target": ".config/herdr-app/mods/git-graph/lanes.js",
+      "sha256": "998b1afc7fda86a83875bcb21fccac8f5b57aef8cd8fc4a9856afe1f56b05abe",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/main.js",
+      "target": ".config/herdr-app/mods/git-graph/main.js",
+      "sha256": "ed3d181dcdd8abfc4c1cab6e53f8dbd696983c09105bfceef24d24f4760277e8",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/menu.js",
+      "target": ".config/herdr-app/mods/git-graph/menu.js",
+      "sha256": "ac60037a0f20e123098d8dc97dbbc4b583436d91acfbedd042e9ab97d2719fad",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/git-graph/mod.json",
+      "target": ".config/herdr-app/mods/git-graph/mod.json",
+      "sha256": "58d21b1522f57e9ad0b40d6b368ef6d4e86929371272b97cec3be9f681e523bb",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/scratch-terminal/main.js",
+      "target": ".config/herdr-app/mods/scratch-terminal/main.js",
+      "sha256": "b694dc0fe863a23bc60d666e1070bfa0ebfe3cc0d3f07d54718adc1ea50fbb0d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/scratch-terminal/mod.json",
+      "target": ".config/herdr-app/mods/scratch-terminal/mod.json",
+      "sha256": "bbae6ff78c497631ee1684b5403e064b628ff7d641aae02d2fa7b64aeba71739",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/command.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/command.svg",
+      "sha256": "d734fb3562cd3a137ac4428b03b6fb246f407950b53b7f362a4cf64ffb745a38",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/main.js",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/main.js",
+      "sha256": "a4d4387f163365ead12f0cf8dd333328c70003da7013ae7c987f3197d8660ed5",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/mod.json",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/mod.json",
+      "sha256": "7bd44209fd03e05e344b5941ccf31da1f69c5cc952aa22515aa3c35cd719f855",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/plus.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/plus.svg",
+      "sha256": "cf054017881f9b1036c6c46c3ed7bd0c913f2cff23da72f02487dcc0b705da10",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/stack.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/stack.svg",
+      "sha256": "26c5bc47183e751c7e1e429fd0cd9bbdfeb55fa258c6ae61b1dd7280e7357e63",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/win-close.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/win-close.svg",
+      "sha256": "cc37e6c73912d33c9ac769f77571871867b52c18445075b9603f2609186757e1",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/win-max.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/win-max.svg",
+      "sha256": "f723f748360c904366e5ad522e0bb6b95bd4feaf39842ffc5bfe78fe6bfe9131",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/win-min.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/win-min.svg",
+      "sha256": "1423d93169ac8744e7c01a59b8b9d076a3d1b02912f0a1fabfe4415c4b6a86bc",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/terminals-bar-graph/win-restore.svg",
+      "target": ".config/herdr-app/mods/terminals-bar-graph/win-restore.svg",
+      "sha256": "305627c33e766569dbbb11c58324f36ac0b04e6799c65413f15e5a043479e1a4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/tui-prefix/main.js",
+      "target": ".config/herdr-app/mods/tui-prefix/main.js",
+      "sha256": "0ac999b875564516263d57e4f0648d3b9585ffb1beabac6df777e2c105a5d423",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/tui-prefix/mod.json",
+      "target": ".config/herdr-app/mods/tui-prefix/mod.json",
+      "sha256": "bbae6ff78c497631ee1684b5403e064b628ff7d641aae02d2fa7b64aeba71739",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/mods/tui-prefix/shortcuts.test.mjs",
+      "target": ".config/herdr-app/mods/tui-prefix/shortcuts.test.mjs",
+      "sha256": "6f57abbbe28799a61c4b5636cc5307fb60042c372979f6b7ba1da316fae437ba",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr-app/settings.json",
+      "target": ".config/herdr-app/settings.json",
+      "sha256": "9ac68d0ccc846298ba9fad617cd4d60259ed0a159fa8ff534aa16b8bb2fbf7d7",
+      "mode": 420
+    },
+    {
       "source": "files/.config/starship.toml",
       "target": ".config/starship.toml",
       "sha256": "c014337714dc2886d55c2ca2b1359f05c68934a9215faeeefd6443344a9a9f75",
@@ -376,61 +670,61 @@
     {
       "source": "files/.pi/agent/agents/gentle-ai-explore.md",
       "target": ".pi/agent/agents/gentle-ai-explore.md",
-      "sha256": "2bf74e3c5b1516fa981e275d3e4235252bf9a3b75fad9c36abcc90a95c3b6f74",
+      "sha256": "5cd27b18590f2c051f7ee0ed494f35df84bc6748a0f9ca2a560bbb1436c9e81e",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/gentle-ai-verify.md",
       "target": ".pi/agent/agents/gentle-ai-verify.md",
-      "sha256": "27fd344f4f073a80e0fa00ebbc1ceb61bd5ed0f1e476ca894cf7ff68e913d363",
+      "sha256": "c335e037714e932ab0957497ed5a2dedf100aa118b58ef07898b6f163cead06b",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/gentle-ai-worker.md",
       "target": ".pi/agent/agents/gentle-ai-worker.md",
-      "sha256": "273184559be55055c019800d91af937bc5615012619fa7f73597b9a721dc28d1",
+      "sha256": "09aec449f3723edcd4691b9139fa8cc7d6500a0f9b1a049ec678ea32b410eeec",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-fix-agent.md",
       "target": ".pi/agent/agents/jd-fix-agent.md",
-      "sha256": "5286e19fbd15b11034aa26aa597ccbf3fefd6c6ee0e3fa699faf3828d58cd3a2",
+      "sha256": "3d599d7f3ab6a3df1590faa502f63e340cfca2496871f3a7557ddd964dcb6699",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-judge-a.md",
       "target": ".pi/agent/agents/jd-judge-a.md",
-      "sha256": "b49c7724edd24d4664385684c4e034373042688335491f896a2abc82b5de3638",
+      "sha256": "155d94e46aa0e89b9e531e4eecdbc3317ca5d9363b547cfdf2872266394276b9",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-judge-b.md",
       "target": ".pi/agent/agents/jd-judge-b.md",
-      "sha256": "a2b21fbf59927517cea0f4e60d775a9b68fbca89676ce9b4fabf3bbc3aaa4d35",
+      "sha256": "63d59d3e6fe9d40bdd9bff0f37692c6b52745d632f666d2011e9cdf31c327874",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-readability.md",
       "target": ".pi/agent/agents/review-readability.md",
-      "sha256": "6b79d2fb6ebc7a08d8f03b21dd0958722da50074cbf1c228deca4602299d2210",
+      "sha256": "4444e2010736eac5050985d77a3eac5f0baf5fd9d244272398cec904cbf1dda2",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-reliability.md",
       "target": ".pi/agent/agents/review-reliability.md",
-      "sha256": "ff29edffc51b7bb70b11587709b693fd5e85d147ac531df0e9bb641666ac4d32",
+      "sha256": "1e2b3d36607f7d16942eda1446e8790a047c5ea4709356a53463bfc142a1eef3",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-resilience.md",
       "target": ".pi/agent/agents/review-resilience.md",
-      "sha256": "5c4a7f6f6a7a275ef58fa817212abc84c6e63a3317b52f09eba2766028cda3d3",
+      "sha256": "32adad65fe08d5c3966761298da5cfe37c6669a256754e3a1d65bad61ff99e40",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-risk.md",
       "target": ".pi/agent/agents/review-risk.md",
-      "sha256": "03d547fa435486fef20d13f0dc6be60cedd87fc37f5f5a64adfe1948687581ee",
+      "sha256": "ba2ad46dfb35f9c82cc8691c480a7b75ef2ff63cf930790a15144fbbbad8ca18",
       "mode": 420
     },
     {
@@ -446,6 +740,12 @@
       "mode": 420
     },
     {
+      "source": "files/.pi/agent/extensions/moshi-hooks.ts",
+      "target": ".pi/agent/extensions/moshi-hooks.ts",
+      "sha256": "78267426dae1468cd9ec5ab43d388b51363062976f9681fbb473d19740ca374b",
+      "mode": 420
+    },
+    {
       "source": "files/.pi/agent/gentle-ai/support/strict-tdd-verify.md",
       "target": ".pi/agent/gentle-ai/support/strict-tdd-verify.md",
       "sha256": "ef1705bbf22a41285934705977396bc3fa2ea0bc378f74623343a467cfcb4996",
@@ -458,6 +758,12 @@
       "mode": 420
     },
     {
+      "source": "files/.pi/agent/keybindings.json",
+      "target": ".pi/agent/keybindings.json",
+      "sha256": "aeeacc6d1ef03ee7d16b1274a4a028f8f280e13f010d29ca206507694e699916",
+      "mode": 420
+    },
+    {
       "source": "files/.pi/agent/mcp.json",
       "target": ".pi/agent/mcp.json",
       "sha256": "0274ecb4c9f90c55d8064625f25b8292131af2c2ec5ca12b729e7d0163f0ab70",
@@ -466,19 +772,19 @@
     {
       "source": "files/.pi/agent/settings.json",
       "target": ".pi/agent/settings.json",
-      "sha256": "81ec5c39b8be7c3cde8aafcd7b080204304b1d23a93905996224d20eba56a811",
+      "sha256": "3b65be01196aed547e68c30bb1c344f1dadfdb9dacac65e08ef5ebe41977aacc",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/subagents.json",
       "target": ".pi/agent/subagents.json",
-      "sha256": "a9cdf9f53c4acd554ca523c6fdb50686570dc02b6fbe110ab2bbd1b0c44a8b44",
+      "sha256": "94c5c74b1ff9844696af285579261786ad8ad0d11afe8717c446d9f1f4c4b2bf",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/themes/omarchy-system.json",
       "target": ".pi/agent/themes/omarchy-system.json",
-      "sha256": "da922b1fcc2041e978986fa33acc9aa5daa24ab1937ddffd5a6a7ae8412ceae1",
+      "sha256": "89b7606eaa954986012452c8970d2c7434d721432dc6f204aedf0254f1394f89",
       "mode": 420
     },
     {
@@ -490,7 +796,7 @@
     {
       "source": "files/.pi/gentle-ai/models.json",
       "target": ".pi/gentle-ai/models.json",
-      "sha256": "6459d95f87b40fcc94a82d587dd199a7d21a8c7e214e918b9cb6e42ef1e8f933",
+      "sha256": "bbdb4d1df16c2c9b92a4837e87cae130e1a4166081dc2bbc3656d66cf18ef7d5",
       "mode": 420
     },
     {
@@ -502,21 +808,22 @@
     {
       "source": "files/.pi/gentle-ai/profiles.json",
       "target": ".pi/gentle-ai/profiles.json",
-      "sha256": "5a50bc541cabea82532e872081910c0ce7cfa3aa7261b173e34d1eaaa9aba115",
+      "sha256": "4e2339f67a27bd6c2104bed109e8998a2199f7f54688161a9957e1d4aa95ea1f",
       "mode": 420
     }
   ],
   "dependencies": {
     "pi": {
       "name": "@earendil-works/pi-coding-agent",
-      "version": "1.1.0",
+      "version": "1.4.0",
       "node": ">=22.19.0"
     },
     "packages": [
-      "npm:gentle-pi@4.0.0",
+      "npm:gentle-pi@4.5.1",
       "npm:gentle-engram@0.4.2",
-      "npm:pi-web-access@0.38.0",
-      "npm:pi-btw@0.8.0"
+      "npm:pi-web-access@0.46.0",
+      "npm:pi-btw@0.8.0",
+      "npm:pi-claude-bridge@0.9.3"
     ],
     "mcp": {
       "context7": "@upstash/context7-mcp@2.2.5",
@@ -525,31 +832,91 @@
   },
   "redacted_fields": [],
   "origins": {
-    ".config/fish/functions/h.fish": "local",
-    ".config/fish/functions/nvim.fish": "local",
     ".config/fish/config.fish": "local",
     ".config/starship.toml": "local",
     ".pi/agent/settings.json": "local",
     ".pi/agent/subagents.json": "local",
+    ".pi/agent/keybindings.json": "local",
     ".pi/gentle-ai/persona.json": "local",
     ".pi/gentle-ai/banner.json": "local",
     ".pi/gentle-ai/models.json": "local",
     ".pi/gentle-ai/profiles.json": "local",
     ".pi/agent/mcp.json": "local",
+    ".config/herdr-app/keys.json": "Herdr app (personal)",
+    ".config/herdr-app/settings.json": "Herdr app (personal)",
+    ".config/herdr-app/layouts/terminals-graph.json": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/LICENSE": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/act.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/dialog.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/git.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/graph.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/LICENSE-lucide.txt": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/branch.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/check.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/cherry.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/cloud.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/commit.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/copy.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/fetch.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/folder.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/graph.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/merge.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/plus.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/push.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/rebase.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/refresh.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/rename.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/reset.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/revert.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/stash.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/tag.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/icons/trash.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/lanes.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/main.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/menu.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/git-graph/mod.json": "Herdr app (personal)",
+    ".config/herdr-app/mods/scratch-terminal/main.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/scratch-terminal/mod.json": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/command.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/main.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/mod.json": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/plus.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/stack.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/win-close.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/win-max.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/win-min.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/terminals-bar-graph/win-restore.svg": "Herdr app (personal)",
+    ".config/herdr-app/mods/tui-prefix/main.js": "Herdr app (personal)",
+    ".config/herdr-app/mods/tui-prefix/mod.json": "Herdr app (personal)",
+    ".config/herdr-app/mods/tui-prefix/shortcuts.test.mjs": "Herdr app (personal)",
     ".agents/skills/_shared/README.md": "local",
     ".agents/skills/_shared/engram-convention.md": "local",
-    ".agents/skills/_shared/openspec-convention.md": "local",
     ".agents/skills/_shared/persistence-contract.md": "local",
     ".agents/skills/_shared/research-lifecycle.md": "local",
     ".agents/skills/_shared/review-ledger-contract-pi.md": "local",
     ".agents/skills/_shared/review-ledger-contract.md": "local",
-    ".agents/skills/_shared/sdd-orchestrator-sections.md": "local",
-    ".agents/skills/_shared/sdd-phase-common.md": "local",
-    ".agents/skills/_shared/sdd-status-contract.md": "local",
     ".agents/skills/_shared/skill-resolver.md": "local",
     ".agents/skills/branch-pr/SKILL.md": "local",
     ".agents/skills/chained-pr/SKILL.md": "local",
     ".agents/skills/chained-pr/references/chaining-details.md": "local",
+    ".agents/skills/codely-doc-create/SKILL.md": "local",
+    ".agents/skills/codely-doc-create/resources/documentation-guidelines.md": "local",
+    ".agents/skills/codely-git-conventional-commit/SKILL.md": "local",
+    ".agents/skills/codely-git-conventional-commit/resources/commit-messages.md": "local",
+    ".agents/skills/codely-openspec-spec-create-from-code/SKILL.md": "local",
+    ".agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md": "local",
+    ".agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md": "local",
+    ".agents/skills/codely-plan-create/SKILL.md": "local",
+    ".agents/skills/codely-plan-create/resources/plan-guidelines.md": "local",
+    ".agents/skills/codely-plan-create-github/SKILL.md": "local",
+    ".agents/skills/codely-plan-create-github/resources/plan-guidelines.md": "local",
+    ".agents/skills/codely-plan-create-gitlab/SKILL.md": "local",
+    ".agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md": "local",
+    ".agents/skills/codely-plan-create-subagents/SKILL.md": "local",
+    ".agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md": "local",
+    ".agents/skills/codely-plan-phase-implement/SKILL.md": "local",
+    ".agents/skills/codely-plan-phase-implement-github/SKILL.md": "local",
+    ".agents/skills/codely-plan-phase-implement-gitlab/SKILL.md": "local",
     ".agents/skills/cognitive-doc-design/SKILL.md": "local",
     ".agents/skills/comment-writer/SKILL.md": "local",
     ".agents/skills/diagnose-crash/SKILL.md": "Omarchy vendored resource",
@@ -568,23 +935,9 @@
     ".agents/skills/omarchy/hyprland.md": "Omarchy vendored resource",
     ".agents/skills/omarchy/plugins.md": "Omarchy vendored resource",
     ".agents/skills/omarchy/theming.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy-app/SKILL.md": "Omarchy vendored resource",
+    ".agents/skills/omarchy-app/templates.md": "Omarchy vendored resource",
     ".agents/skills/rdd-defect-workflow/SKILL.md": "local",
-    ".agents/skills/sdd-apply/SKILL.md": "local",
-    ".agents/skills/sdd-apply/strict-tdd.md": "local",
-    ".agents/skills/sdd-archive/SKILL.md": "local",
-    ".agents/skills/sdd-design/SKILL.md": "local",
-    ".agents/skills/sdd-design/references/threat-matrix.md": "local",
-    ".agents/skills/sdd-explore/SKILL.md": "local",
-    ".agents/skills/sdd-init/SKILL.md": "local",
-    ".agents/skills/sdd-init/references/init-details.md": "local",
-    ".agents/skills/sdd-onboard/SKILL.md": "local",
-    ".agents/skills/sdd-propose/SKILL.md": "local",
-    ".agents/skills/sdd-research/SKILL.md": "local",
-    ".agents/skills/sdd-spec/SKILL.md": "local",
-    ".agents/skills/sdd-tasks/SKILL.md": "local",
-    ".agents/skills/sdd-verify/SKILL.md": "local",
-    ".agents/skills/sdd-verify/references/report-format.md": "local",
-    ".agents/skills/sdd-verify/strict-tdd-verify.md": "local",
     ".agents/skills/skill-creator/SKILL.md": "local",
     ".agents/skills/skill-creator/references/skill-style-guide.md": "local",
     ".agents/skills/skill-improver/SKILL.md": "local",
@@ -604,16 +957,22 @@
     ".pi/agent/agents/review-risk.md": "local",
     ".pi/agent/chains/4r-review.chain.md": "local",
     ".pi/agent/extensions/herdr-agent-state.ts": "local",
+    ".pi/agent/extensions/moshi-hooks.ts": "local",
     ".pi/agent/themes/omarchy-system.json": "local",
     ".pi/agent/gentle-ai/support/strict-tdd-verify.md": "local",
     ".pi/agent/gentle-ai/support/strict-tdd.md": "local",
+    ".config/fish/functions/chrome-x.fish": "local",
+    ".config/fish/functions/fish_user_key_bindings.fish": "local",
+    ".config/fish/functions/h.fish": "local",
+    ".config/fish/functions/nvim.fish": "local",
     ".config/fish/conf.d/20-portable-aliases.fish": "reviewed Omarchy Bash alias translations"
   },
   "excluded": [
     "credentials, history, sessions, caches, trust, models-store, node_modules",
     "desktop configuration and Bash distribution runtime",
     "inactive legacy .pi/npm/package.json pi-mcp-adapter range; no installed metadata",
-    "managed-assets runtime index; package installer may refresh managed agents"
+    "managed-assets runtime index; package installer may refresh managed agents",
+    "Herdr shipped mods/layouts, generated .d.ts/jsconfig, binaries and app state"
   ],
   "external_requirements": [
     "Engram executable (ENGRAM_BIN optional)",

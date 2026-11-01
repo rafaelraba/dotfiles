@@ -27,6 +27,13 @@ SINGLES = ('.config/fish/config.fish', '.config/starship.toml',
            '.pi/gentle-ai/persona.json', '.pi/gentle-ai/banner.json',
            '.pi/gentle-ai/models.json', '.pi/gentle-ai/profiles.json', '.pi/agent/mcp.json')
 OMARCHY = Path('/usr/share/omarchy/default/agents/skills')
+# Herdr app: only the person's own files. Herdr rewrites its shipped mods and
+# layouts, AGENTS.md and the .d.ts/jsconfig files on every start, and the rest
+# of the folder is app state (shared/view/window json, layouts/.state, telemetry).
+HERDR = '.config/herdr-app'
+HERDR_SINGLES = tuple(HERDR + '/' + name for name in ('keys.json', 'settings.json', 'programs.json'))
+HERDR_MOD_SUFFIXES = ('.js', '.mjs', '.svg', '.txt')
+HERDR_MOD_NAMES = ('mod.json', 'LICENSE')
 
 
 def audit(text, label):
@@ -87,6 +94,55 @@ def walk_files(root):
             yield child
         else:
             raise ValueError('Non-regular source resource')
+
+
+def herdr_mod_files(directory):
+    """A mod's source text: code, mod.json, icons, licenses. Skips generated
+    type files, binaries and editor backups instead of failing on them."""
+    for child in sorted(directory.iterdir()):
+        if child.name.startswith('.') or child.name == 'node_modules':
+            continue
+        if child.is_symlink():
+            raise ValueError('Unreviewed source symlink: ' + str(child))
+        if child.is_dir():
+            yield from herdr_mod_files(child)
+        elif child.is_file() and (child.suffix in HERDR_MOD_SUFFIXES or child.name in HERDR_MOD_NAMES):
+            safety.relative(child.name)
+            yield child
+
+
+def herdr_files(home):
+    """Yield (path, target) for personal Herdr layouts and mods, not shipped ones."""
+    root = home / HERDR
+    safety.no_links(root)
+    if not root.is_dir():
+        return
+    installed = root / 'installed.json'
+    safety.no_links(installed)
+    if not installed.is_file():
+        # Without Herdr's list of shipped files every shipped mod would look personal.
+        raise ValueError('Herdr installed.json missing; cannot tell shipped files from personal ones')
+    shipped = set(json.loads(installed.read_text()))
+    layouts = root / 'layouts'
+    safety.no_links(layouts)
+    if layouts.is_dir():
+        for layout in sorted(layouts.glob('*.json')):
+            if 'layout:' + layout.stem in shipped:
+                continue
+            if layout.is_symlink():
+                raise ValueError('Unreviewed source symlink: ' + str(layout))
+            yield layout, HERDR + '/layouts/' + layout.name
+    mods = root / 'mods'
+    safety.no_links(mods)
+    if mods.is_dir():
+        for mod in sorted(mods.iterdir()):
+            if mod.name in shipped or mod.name.startswith('.'):
+                continue
+            if mod.is_symlink():
+                raise ValueError('Unreviewed source symlink: ' + str(mod))
+            if mod.is_dir():
+                for file in herdr_mod_files(mod):
+                    yield file, HERDR + '/mods/' + str(file.relative_to(mods))
 
 
 def write_snapshot(repo, content):
@@ -180,13 +236,20 @@ def capture(repo, home, apply=False):
         safety.no_links(path)
         if path.is_file():
             add(path, relative)
+    for relative in HERDR_SINGLES:
+        path = home / relative
+        safety.no_links(path)
+        if path.is_file():
+            add(path, relative, 'Herdr app (personal)')
+    for path, target in herdr_files(home):
+        add(path, target, 'Herdr app (personal)')
     for relative in DIRECTORIES:
         root = home / relative
         if relative == '.agents/skills' and root.exists():
             safety.no_links(root)
             for child in sorted(root.iterdir()):
                 if child.is_symlink():
-                    if child.name not in ('omarchy', 'diagnose-crash') or child.resolve() != OMARCHY / child.name:
+                    if child.name not in ('omarchy', 'diagnose-crash', 'omarchy-app') or child.resolve() != OMARCHY / child.name:
                         raise ValueError('Unreviewed external skill symlink: ' + child.name)
                     external = OMARCHY / child.name
                     for file in walk_files(external):
@@ -232,7 +295,8 @@ def capture(repo, home, apply=False):
                 'excluded': ['credentials, history, sessions, caches, trust, models-store, node_modules',
                              'desktop configuration and Bash distribution runtime',
                              'inactive legacy .pi/npm/package.json pi-mcp-adapter range; no installed metadata',
-                             'managed-assets runtime index; package installer may refresh managed agents'],
+                             'managed-assets runtime index; package installer may refresh managed agents',
+                             'Herdr shipped mods/layouts, generated .d.ts/jsconfig, binaries and app state'],
                 'external_requirements': ['Engram executable (ENGRAM_BIN optional)', 'optional Herdr integration',
                                           'Omarchy/crash skill commands depend on Linux/Omarchy tools']}
     content['manifest.json'] = (json.dumps(manifest, indent=2, ensure_ascii=False) + '\n').encode()

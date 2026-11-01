@@ -132,6 +132,19 @@ class RestoreTests(unittest.TestCase):
                     self.run_restore(True)
                 self.assertFalse(self.home.exists())
 
+    def test_herdr_targets_restore_but_app_state_does_not(self):
+        for target in ['.config/herdr-app/keys.json', '.config/herdr-app/mods/scratch/main.js',
+                       '.config/herdr-app/layouts/mine.json']:
+            with self.subTest(target=target):
+                self.manifest['files'] = [dict(self.entry, target=target)]
+                self.save()
+                self.run_restore(True)
+                self.assertEqual((self.home / target).read_bytes(), self.source.read_bytes())
+        self.manifest['files'] = [dict(self.entry, target='.config/herdr-app/shared.json')]
+        self.save()
+        with self.assertRaises(ValueError):
+            self.run_restore(True)
+
     def test_symlink_source_rejected(self):
         outside = self.root / 'outside'
         outside.write_text('not allowed')

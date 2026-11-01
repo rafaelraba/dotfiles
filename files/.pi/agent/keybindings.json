@@ -1,0 +1,4 @@
+{
+  "tui.altScreen.previousPrompt": "ctrl+up",
+  "tui.altScreen.nextPrompt": "ctrl+down"
+}

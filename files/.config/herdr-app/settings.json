@@ -1,0 +1,10 @@
+{
+  "zoom": 1,
+  "sounds": {
+    "enabled": true
+  },
+  "font": "JetBrains Mono",
+  "font_size": 15,
+  "minimum_contrast": 1,
+  "appearance": "dark"
+}

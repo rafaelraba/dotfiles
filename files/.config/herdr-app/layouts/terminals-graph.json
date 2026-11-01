@@ -1,0 +1,121 @@
+{
+  "id": "root",
+  "cloned_from": {
+    "name": "terminals",
+    "version": "0.1.9"
+  },
+  "type": "column",
+  "children": [
+    {
+      "id": "tabs",
+      "type": "block",
+      "content": {
+        "mod": "terminals-bar-graph"
+      },
+      "size": {
+        "px": 38
+      },
+      "window_drag": true
+    },
+    {
+      "id": "work-body",
+      "type": "row",
+      "gap": 8,
+      "children": [
+        {
+          "id": "main",
+          "type": "block",
+          "content": {
+            "tab": "active",
+            "pane": {
+              "header": {
+                "content": {
+                  "mod": "terminals-pane"
+                },
+                "height": 38
+              },
+              "background": "#17191c",
+              "border": {
+                "width": 1,
+                "color": "#24272b"
+              },
+              "focus": {
+                "width": 1,
+                "color": "#33363b"
+              },
+              "radius": 12,
+              "gap": 8,
+              "lone": true
+            }
+          }
+        },
+        {
+          "id": "panel",
+          "type": "column",
+          "hidden": true,
+          "size": {
+            "px": 620
+          },
+          "min": 280,
+          "max": 1200,
+          "children": [
+            {
+              "id": "panel-body",
+              "type": "stack",
+              "active": "graph",
+              "children": [
+                {
+                  "id": "files",
+                  "type": "block",
+                  "content": {
+                    "mod": "files"
+                  }
+                },
+                {
+                  "id": "changes",
+                  "type": "block",
+                  "content": {
+                    "mod": "changes"
+                  }
+                },
+                {
+                  "id": "graph",
+                  "type": "block",
+                  "content": {
+                    "mod": "git-graph"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "background": "#131619",
+  "padding": [
+    6,
+    6
+  ],
+  "theme": "graphite",
+  "colors": {
+    "accent": "#3b82f6",
+    "background": "#131619",
+    "border": "#25282c",
+    "dim": "#8b8f95",
+    "foreground": "#e8e9eb",
+    "hover": "#ffffff0d",
+    "muted": "#a9adb3",
+    "raised": "#202225",
+    "selection": "#264f78",
+    "surface": "#17191c",
+    "terminal_foreground": "#e6e7e9"
+  },
+  "font_size": 15,
+  "gap": 8,
+  "titlebar": "none",
+  "traffic_lights": [
+    16,
+    18
+  ]
+}

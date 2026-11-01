@@ -1,7 +1,7 @@
 ---
 name: review-readability
 description: R2 Readability reviewer — naming, complexity, intention, maintainability, review size, and context clarity.
-model: openai-codex/gpt-6.1-sol
+model: opencode-go/deepseek-v4-pro
 thinking: high
 tools:
   - "*": false

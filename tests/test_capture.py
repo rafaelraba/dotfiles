@@ -95,6 +95,72 @@ class CaptureTests(unittest.TestCase):
         self.assertEqual(context['command'], '~/.pi/mcp/node_modules/.bin/context7-mcp')
         self.assertEqual(context['args'], [])
 
+    def herdr_fixture(self, home):
+        root = home / '.config/herdr-app'
+        (root / 'layouts/.state').mkdir(parents=True)
+        (root / 'installed.json').write_text(json.dumps({'toast': {}, 'layout:main': {}}))
+        (root / 'keys.json').write_text('{"global": {"alt-f": "mod.open:scratch"}}')
+        (root / 'settings.json').write_text('{"zoom": 1}')
+        (root / 'shared.json').write_text('{"state": 1}')
+        (root / 'AGENTS.md').write_text('rewritten by Herdr')
+        (root / 'layouts/main.json').write_text('{"id": "root"}')
+        (root / 'layouts/mine.json').write_text('{"id": "root", "cloned_from": {"name": "main"}}')
+        (root / 'layouts/mine.json.old-1').write_text('{}')
+        (root / 'layouts/.state/mine.json').write_text('{}')
+        shipped = root / 'mods/toast'
+        shipped.mkdir(parents=True)
+        (shipped / 'main.js').write_text('shipped')
+        mod = root / 'mods/scratch'
+        (mod / 'icons').mkdir(parents=True)
+        (mod / 'main.js').write_text('export default 1;\n')
+        (mod / 'mod.json').write_text('{"place": "none"}')
+        (mod / 'icons/x.svg').write_text('<svg/>')
+        (mod / 'gpui-kit.d.ts').write_text('generated')
+        (mod / 'jsconfig.json').write_text('{}')
+        (mod / 'main.js.bak-visible').write_text('backup')
+        (mod / 'shot.png').write_bytes(b'\x89PNG\x00\xff')
+        (mod / '.debug.log').write_text('hidden')
+        return root
+
+    def test_herdr_captures_only_personal_files(self):
+        home = self.root / 'source user'
+        self.herdr_fixture(home)
+        targets = {target for _, target in self.module.herdr_files(home)}
+        self.assertEqual(targets, {'.config/herdr-app/layouts/mine.json',
+                                   '.config/herdr-app/mods/scratch/main.js',
+                                   '.config/herdr-app/mods/scratch/mod.json',
+                                   '.config/herdr-app/mods/scratch/icons/x.svg'})
+
+    def test_herdr_capture_writes_snapshot_with_keys_and_settings(self):
+        home = self.root / 'source user'
+        repo = self.root / 'snapshot'
+        repo.mkdir()
+        self.herdr_fixture(home)
+        with patch.object(self.module, 'pi_metadata', return_value={'name': 'pi', 'version': '1.0.0'}):
+            manifest = self.module.capture(repo, home, apply=True)
+        targets = {entry['target'] for entry in manifest['files']}
+        self.assertIn('.config/herdr-app/keys.json', targets)
+        self.assertIn('.config/herdr-app/settings.json', targets)
+        self.assertNotIn('.config/herdr-app/shared.json', targets)
+        self.assertEqual(manifest['origins']['.config/herdr-app/keys.json'], 'Herdr app (personal)')
+        self.assertTrue((repo / 'files/.config/herdr-app/mods/scratch/main.js').is_file())
+
+    def test_herdr_without_installed_list_fails_closed(self):
+        home = self.root / 'source user'
+        root = self.herdr_fixture(home)
+        (root / 'installed.json').unlink()
+        with self.assertRaises(ValueError):
+            list(self.module.herdr_files(home))
+
+    def test_herdr_mod_symlink_rejected(self):
+        home = self.root / 'source user'
+        root = self.herdr_fixture(home)
+        outside = self.root / 'outside mod'
+        outside.mkdir()
+        (root / 'mods/linked').symlink_to(outside)
+        with self.assertRaises(ValueError):
+            list(self.module.herdr_files(home))
+
     def test_snapshot_symlink_write_rejected(self):
         repo = self.root / 'repo'
         repo.mkdir()

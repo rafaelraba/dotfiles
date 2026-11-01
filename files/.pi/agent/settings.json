@@ -1,19 +1,21 @@
 {
-  "defaultModel": "gpt-6.1-sol",
-  "defaultProvider": "openai-codex",
+  "defaultModel": "kimi-k3.1-pro",
+  "defaultProvider": "opencode-go",
   "defaultThinkingLevel": "medium",
-  "lastChangelogVersion": "1.1.0",
+  "lastChangelogVersion": "1.4.0",
   "packages": [
-    "npm:gentle-pi@4.0.0",
+    "npm:gentle-pi@4.5.1",
     "npm:gentle-engram@0.4.2",
-    "npm:pi-web-access@0.38.0",
-    "npm:pi-btw@0.8.0"
+    "npm:pi-web-access@0.46.0",
+    "npm:pi-btw@0.8.0",
+    "npm:pi-claude-bridge@0.9.3"
   ],
   "extensions": [
     "-builtin:codemode"
   ],
   "theme": "omarchy-system",
   "tuiMode": "fullscreen",
+  "hideThinkingBlock": true,
   "skills": [
     "../../.agents/skills"
   ]

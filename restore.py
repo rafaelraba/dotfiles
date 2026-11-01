@@ -16,13 +16,16 @@ sys.dont_write_bytecode = True
 TREE_TARGETS = ('.agents/skills/', '.pi/agent/skills/', '.pi/agent/agents/',
                 '.pi/agent/chains/', '.pi/agent/extensions/', '.pi/agent/prompts/',
                 '.pi/agent/themes/', '.pi/agent/gentle-ai/support/',
-                '.config/fish/conf.d/', '.config/fish/functions/')
+                '.config/fish/conf.d/', '.config/fish/functions/',
+                '.config/herdr-app/mods/', '.config/herdr-app/layouts/')
 FILE_TARGETS = {'.config/fish/config.fish', '.config/starship.toml',
                 '.pi/agent/settings.json', '.pi/agent/subagents.json',
                 '.pi/agent/mcp.json', '.pi/agent/keybindings.json',
                 '.pi/agent/AGENTS.md', '.pi/agent/SYSTEM.md', '.pi/agent/APPEND_SYSTEM.md',
                 '.pi/gentle-ai/persona.json', '.pi/gentle-ai/banner.json',
-                '.pi/gentle-ai/models.json', '.pi/gentle-ai/profiles.json'}
+                '.pi/gentle-ai/models.json', '.pi/gentle-ai/profiles.json',
+                '.config/herdr-app/keys.json', '.config/herdr-app/settings.json',
+                '.config/herdr-app/programs.json'}
 
 
 def relative(value):

@@ -63,13 +63,16 @@ The old `~/.pi/npm/package.json` only declares `pi-mcp-adapter` with an unpinned
 | `~/.pi/gentle-ai/{persona,banner,models,profiles}.json` | Saved persona, appearance, agent models and active profile |
 | Agents, chains, Herdr extension, Gentle AI support docs | Current resources preserved, including package-managed agent copies; Herdr is optional and its extension is inactive without its environment |
 | `~/.agents/skills` | Local source skills and `_shared` references copied recursively; package skills remain package dependencies |
-| Omarchy and diagnose-crash skills | Dereferenced into ordinary skill directories with their supporting Markdown; no host symlinks |
+| Omarchy, omarchy-app and diagnose-crash skills | Dereferenced into ordinary skill directories with their supporting Markdown; no host symlinks |
 | Fish and Starship | Startup plus reviewed empty `fish_greeting`; no universal-variable dump |
 | Aliases | Reviewed portable subset of Omarchy Bash defaults translated to Fish in `conf.d/20-portable-aliases.fish` |
+| Herdr app (`~/.config/herdr-app`) | Personal files only: `keys.json`, `settings.json`, `programs.json`, layouts and mods not listed in Herdr's `installed.json` (code, `mod.json`, SVG icons, licenses). Shipped mods/layouts, generated `.d.ts`/`jsconfig.json`, binaries, backups and app state are left out; Herdr regenerates them |
 
 Pi discovers `~/.agents/skills` natively; settings also explicitly list `../../.agents/skills` relative to `~/.pi/agent`. The duplicate live Omarchy links in `~/.pi/agent/skills` are intentionally not recreated. Package-provided skills are installed by the pinned Pi packages, not copied from node_modules. Omarchy/crash skill instructions remain available elsewhere, but their system-specific commands still require Omarchy/Linux/systemd tools. They are not a desktop backup.
 
 Fish autoload shortcuts in `~/.config/fish/functions/` make `nvim` without arguments run `command nvim .` and `h` run `command herdr`. Explicit arguments and exit statuses are preserved; the existing `n` shortcut remains unchanged. Neovim and Herdr must be installed separately. Capture includes this functions directory, so future refreshes retain the live shortcuts.
+
+`fish_user_key_bindings.fish` rebinds Ctrl+L to `clear -x` plus a prompt repaint: Fish 4's default (scrollback-push) does not clear in Herdr terminals. The binding lives in that function, not `config.fish`, because Fish erases `config.fish` bindings when it reloads key bindings.
 
 At initial capture, Fish had no personal alias functions, abbreviations, or binding files. Its only universal variable was the empty greeting. `.bashrc` had no personal overrides and sourced Omarchy defaults. Portable aliases include directory traversal, Git, optional eza/Docker/Rails/tmux/nvim, and Linux `xdg-open`. Desktop/agent launchers, automatic approval aliases (`cx`, `cy`), mise update shortcuts, fzf/editor/zoxide helpers, and distribution Bash functions/completions/inputrc are intentionally omitted. Bash itself is not restored.
 
@@ -94,7 +97,7 @@ python3 dotfiles/capture.py --apply         # Write snapshot only, never live co
 python3 -m unittest discover -s dotfiles/tests -v
 ```
 
-Capture reads explicit resource roots, not the entire home. It pins packages from installed metadata and rejects unknown external symlinks, unsupported binary files, credential patterns and unknown machine-home paths. Only the two reviewed Omarchy skill links are dereferenced. Additional Fish universal variables require deliberate review/export; they are not silently copied. The generated alias subset is retained unless the live home supplies that file. New configuration types/resources outside the allowlist need a reviewed code change. Always inspect the snapshot diff before committing: pattern scans cannot prove arbitrary text is secret-free.
+Capture reads explicit resource roots, not the entire home. It pins packages from installed metadata and rejects unknown external symlinks, unsupported binary files, credential patterns and unknown machine-home paths. Only the three reviewed Omarchy skill links (omarchy, diagnose-crash, omarchy-app) are dereferenced. Additional Fish universal variables require deliberate review/export; they are not silently copied. The generated alias subset is retained unless the live home supplies that file. New configuration types/resources outside the allowlist need a reviewed code change. Always inspect the snapshot diff before committing: pattern scans cannot prove arbitrary text is secret-free.
 
 ## Exclusions
 
