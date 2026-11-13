@@ -1,10 +1,11 @@
 {
-  "zoom": 1,
+  "zoom": 1.0,
   "sounds": {
     "enabled": true
   },
-  "font": "JetBrains Mono",
-  "font_size": 15,
-  "minimum_contrast": 1,
+  "font": "JetBrainsMono Spaced",
+  "font_size": 15.0,
+  "font_ligatures": false,
+  "minimum_contrast": 1.0,
   "appearance": "dark"
 }

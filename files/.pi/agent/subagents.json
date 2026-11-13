@@ -1,43 +1,43 @@
 {
   "model_profiles": {
-    "jd-judge-a": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "effort": "high"
-    },
-    "jd-judge-b": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "effort": "high"
+    "gentle-ai-worker": {
+      "model": "nan/glm5.3-flash",
+      "effort": "medium"
     },
     "jd-fix-agent": {
-      "model": "opencode-go/glm-5.3",
+      "model": "nan/glm5.3-flash",
       "effort": "medium"
     },
     "gentle-ai-explore": {
-      "model": "opencode-go/glm-5.3-flash",
-      "effort": "high"
-    },
-    "gentle-ai-verify": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "effort": "high"
-    },
-    "gentle-ai-worker": {
-      "model": "opencode-go/glm-5.3",
+      "model": "nan/deepseek-v4-flash",
       "effort": "medium"
     },
-    "review-readability": {
-      "model": "opencode-go/deepseek-v4-pro",
+    "gentle-ai-verify": {
+      "model": "nan/deepseek-v4-flash",
       "effort": "high"
     },
-    "review-reliability": {
-      "model": "opencode-go/deepseek-v4-pro",
+    "jd-judge-a": {
+      "model": "nan/deepseek-v4-flash",
       "effort": "high"
     },
-    "review-resilience": {
-      "model": "opencode-go/deepseek-v4-pro",
+    "jd-judge-b": {
+      "model": "nan/glm5.3-flash",
       "effort": "high"
     },
     "review-risk": {
-      "model": "opencode-go/deepseek-v4-pro",
+      "model": "nan/deepseek-v4-flash",
+      "effort": "high"
+    },
+    "review-readability": {
+      "model": "nan/deepseek-v4-flash",
+      "effort": "high"
+    },
+    "review-reliability": {
+      "model": "nan/deepseek-v4-flash",
+      "effort": "high"
+    },
+    "review-resilience": {
+      "model": "nan/deepseek-v4-flash",
       "effort": "high"
     }
   }

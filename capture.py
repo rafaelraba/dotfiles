@@ -34,6 +34,10 @@ HERDR = '.config/herdr-app'
 HERDR_SINGLES = tuple(HERDR + '/' + name for name in ('keys.json', 'settings.json', 'programs.json'))
 HERDR_MOD_SUFFIXES = ('.js', '.mjs', '.svg', '.txt')
 HERDR_MOD_NAMES = ('mod.json', 'LICENSE')
+# Hyprland (Omarchy): the person's config files, not the .bak copies beside them.
+HYPR_SINGLES = tuple('.config/hypr/' + name for name in (
+    'hyprland.lua', 'autostart.lua', 'bindings.lua', 'input.lua', 'looknfeel.lua',
+    'monitors.lua', 'hyprsunset.conf', 'xdph.conf'))
 
 
 def audit(text, label):
@@ -243,6 +247,11 @@ def capture(repo, home, apply=False):
             add(path, relative, 'Herdr app (personal)')
     for path, target in herdr_files(home):
         add(path, target, 'Herdr app (personal)')
+    for relative in HYPR_SINGLES:
+        path = home / relative
+        safety.no_links(path)
+        if path.is_file():
+            add(path, relative, 'Hyprland')
     for relative in DIRECTORIES:
         root = home / relative
         if relative == '.agents/skills' and root.exists():

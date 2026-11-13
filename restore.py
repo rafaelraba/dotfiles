@@ -25,7 +25,11 @@ FILE_TARGETS = {'.config/fish/config.fish', '.config/starship.toml',
                 '.pi/gentle-ai/persona.json', '.pi/gentle-ai/banner.json',
                 '.pi/gentle-ai/models.json', '.pi/gentle-ai/profiles.json',
                 '.config/herdr-app/keys.json', '.config/herdr-app/settings.json',
-                '.config/herdr-app/programs.json'}
+                '.config/herdr-app/programs.json',
+                '.config/hypr/hyprland.lua', '.config/hypr/autostart.lua',
+                '.config/hypr/bindings.lua', '.config/hypr/input.lua',
+                '.config/hypr/looknfeel.lua', '.config/hypr/monitors.lua',
+                '.config/hypr/hyprsunset.conf', '.config/hypr/xdph.conf'}
 
 
 def relative(value):

@@ -34,7 +34,7 @@
     {
       "source": "files/.agents/skills/_shared/review-ledger-contract.md",
       "target": ".agents/skills/_shared/review-ledger-contract.md",
-      "sha256": "fc1015619cb12b767af464d87fccce23920952631c2b42b60fbc674420818e43",
+      "sha256": "371c0fcd061e72fc45f241700dc7343b3a1d1d2a2cd8f8ee3dc5b66278e45b53",
       "mode": 420
     },
     {
@@ -268,7 +268,7 @@
     {
       "source": "files/.agents/skills/omarchy/hooks.md",
       "target": ".agents/skills/omarchy/hooks.md",
-      "sha256": "eb20909dea24e5025840ac7397dbccaf85834c5d809bf37c46ce3bd8d1ceecdd",
+      "sha256": "19f5071daccbd21f42446b865b9ce630f9469172c8d3fc51d706db76faaa3182",
       "mode": 420
     },
     {
@@ -334,7 +334,7 @@
     {
       "source": "files/.agents/skills/work-unit-commits/SKILL.md",
       "target": ".agents/skills/work-unit-commits/SKILL.md",
-      "sha256": "7704f3ae8cb3b7b3e8d1a8b7daa514458d8fe685b50bcdd433d5290a6ea3c2e4",
+      "sha256": "d1f25b154dc0a2e55f1bfbe9b46bd10bf3dd57c3e9e54ae671b5d131623eaead",
       "mode": 420
     },
     {
@@ -352,7 +352,7 @@
     {
       "source": "files/.config/fish/config.fish",
       "target": ".config/fish/config.fish",
-      "sha256": "9a51d0f29a2baea563083b160bf40957bf1753759ea81f5dd53fe7de7a522d5e",
+      "sha256": "731fc61005d4fa6a9d5ace0d4436e551cb08a555c0b7fa9a92157210743aa74a",
       "mode": 420
     },
     {
@@ -658,73 +658,121 @@
     {
       "source": "files/.config/herdr-app/settings.json",
       "target": ".config/herdr-app/settings.json",
-      "sha256": "9ac68d0ccc846298ba9fad617cd4d60259ed0a159fa8ff534aa16b8bb2fbf7d7",
+      "sha256": "54192547b7923d1ccd07a05ab709fa5af6486e5ee788dbdcec8e5cafc2cbde53",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/autostart.lua",
+      "target": ".config/hypr/autostart.lua",
+      "sha256": "907eddc68deabc3ecb5c3337bf76ebb90a7603052e203ac35e50235348a5b65d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/bindings.lua",
+      "target": ".config/hypr/bindings.lua",
+      "sha256": "c2aeaf037c002114113df5410f711cc5411c08f386fc959e35e46e2bd4c17b05",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/hyprland.lua",
+      "target": ".config/hypr/hyprland.lua",
+      "sha256": "69661ef5b44726b0bb814e5c695cbf3a2b43832270ed76285c5229203fb7c3d4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/hyprsunset.conf",
+      "target": ".config/hypr/hyprsunset.conf",
+      "sha256": "8674c758b41d2308fd194e08b81957e89ce16ba1839087b9ce4eda5149026e3c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/input.lua",
+      "target": ".config/hypr/input.lua",
+      "sha256": "1c3904e31df667d5bee09ddad3744365f1341e8a6833855d92872789dbe667f7",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/looknfeel.lua",
+      "target": ".config/hypr/looknfeel.lua",
+      "sha256": "646db6e60bbf5b8b351bf255e169a97c4c18530847f8eb48b5519fbd11c24f2f",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/monitors.lua",
+      "target": ".config/hypr/monitors.lua",
+      "sha256": "ece3a5c044af4af0df87febfeb4bac5d673033b515eb06dcaf1bc4a6370dc9d9",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/hypr/xdph.conf",
+      "target": ".config/hypr/xdph.conf",
+      "sha256": "2fded88a27b89f33cbc2b64a1258117df74b591f39a84c78ec3504a7d3b09136",
       "mode": 420
     },
     {
       "source": "files/.config/starship.toml",
       "target": ".config/starship.toml",
-      "sha256": "c014337714dc2886d55c2ca2b1359f05c68934a9215faeeefd6443344a9a9f75",
+      "sha256": "333fbfcccd5c9f312c7abbbbd6ecb02c4afd30c139d24fe5d3d521ba7caa6a52",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/gentle-ai-explore.md",
       "target": ".pi/agent/agents/gentle-ai-explore.md",
-      "sha256": "5cd27b18590f2c051f7ee0ed494f35df84bc6748a0f9ca2a560bbb1436c9e81e",
+      "sha256": "27e980f28c1ca03474b7db9e539ec54dbb9276622e315ba12055b73a8e67fd12",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/gentle-ai-verify.md",
       "target": ".pi/agent/agents/gentle-ai-verify.md",
-      "sha256": "c335e037714e932ab0957497ed5a2dedf100aa118b58ef07898b6f163cead06b",
+      "sha256": "579bf68cf3bac779818514159d2b716c9bbc47c5be687e2707b8cb323bd7b2fa",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/gentle-ai-worker.md",
       "target": ".pi/agent/agents/gentle-ai-worker.md",
-      "sha256": "09aec449f3723edcd4691b9139fa8cc7d6500a0f9b1a049ec678ea32b410eeec",
+      "sha256": "6e0e83a3ad60409d4d41a28fea46b846e171a0193f2e0d2ffc96982e080e9fe3",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-fix-agent.md",
       "target": ".pi/agent/agents/jd-fix-agent.md",
-      "sha256": "3d599d7f3ab6a3df1590faa502f63e340cfca2496871f3a7557ddd964dcb6699",
+      "sha256": "42e77a1bcacacbbf52a3226bcc07bfda1a2ef3420245484f25452fc7230007c5",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-judge-a.md",
       "target": ".pi/agent/agents/jd-judge-a.md",
-      "sha256": "155d94e46aa0e89b9e531e4eecdbc3317ca5d9363b547cfdf2872266394276b9",
+      "sha256": "bb1c660f2d119ea9cf25afccdefa685297dce33ff62e3d7396454a1d4823c3fc",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/jd-judge-b.md",
       "target": ".pi/agent/agents/jd-judge-b.md",
-      "sha256": "63d59d3e6fe9d40bdd9bff0f37692c6b52745d632f666d2011e9cdf31c327874",
+      "sha256": "5d5b196ae813d9afeaf83a6865a3a55b162c8d26b777a4850ad478a54fd0952d",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-readability.md",
       "target": ".pi/agent/agents/review-readability.md",
-      "sha256": "4444e2010736eac5050985d77a3eac5f0baf5fd9d244272398cec904cbf1dda2",
+      "sha256": "80c28b8422682dd8e3b7122c8bcfd2b7ce75f29cd1e5fa5e58679369fe56d689",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-reliability.md",
       "target": ".pi/agent/agents/review-reliability.md",
-      "sha256": "1e2b3d36607f7d16942eda1446e8790a047c5ea4709356a53463bfc142a1eef3",
+      "sha256": "64838b2d897c5726a6bb2a8b114feee15dcd08a9d2eceab04d640a962c49790d",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-resilience.md",
       "target": ".pi/agent/agents/review-resilience.md",
-      "sha256": "32adad65fe08d5c3966761298da5cfe37c6669a256754e3a1d65bad61ff99e40",
+      "sha256": "52f1489d73b03f771d75ee1a9e81c78986b8325a63a41b4f7542166b1578de60",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/agents/review-risk.md",
       "target": ".pi/agent/agents/review-risk.md",
-      "sha256": "ba2ad46dfb35f9c82cc8691c480a7b75ef2ff63cf930790a15144fbbbad8ca18",
+      "sha256": "ffd327ee97fb0b614950281f653acdd60edae174a1ae701164e328d3870e03f5",
       "mode": 420
     },
     {
@@ -766,19 +814,19 @@
     {
       "source": "files/.pi/agent/mcp.json",
       "target": ".pi/agent/mcp.json",
-      "sha256": "0274ecb4c9f90c55d8064625f25b8292131af2c2ec5ca12b729e7d0163f0ab70",
+      "sha256": "1adf1a06f77f84f4997f1ce6c884e19de720351a1e469b90f6edeb33595fe64b",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/settings.json",
       "target": ".pi/agent/settings.json",
-      "sha256": "3b65be01196aed547e68c30bb1c344f1dadfdb9dacac65e08ef5ebe41977aacc",
+      "sha256": "d1013339cf3ea412459078868f77fc1b07c744b85b0ce27ee7c31501ff874530",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/subagents.json",
       "target": ".pi/agent/subagents.json",
-      "sha256": "94c5c74b1ff9844696af285579261786ad8ad0d11afe8717c446d9f1f4c4b2bf",
+      "sha256": "ed937adbe85932d07affdc9d7582c42dd5597610c2dadf4d6f6d64ebe611d3fa",
       "mode": 420
     },
     {
@@ -796,34 +844,34 @@
     {
       "source": "files/.pi/gentle-ai/models.json",
       "target": ".pi/gentle-ai/models.json",
-      "sha256": "bbdb4d1df16c2c9b92a4837e87cae130e1a4166081dc2bbc3656d66cf18ef7d5",
+      "sha256": "bdfe1b99925194dbc10602074d749ab314ffda630f485c1dcaf92d47d2f2ef35",
       "mode": 420
     },
     {
       "source": "files/.pi/gentle-ai/persona.json",
       "target": ".pi/gentle-ai/persona.json",
-      "sha256": "078ccbfd92df0e2fb086fe8eabdebabdd3e426354e98265c331ac45163781c88",
+      "sha256": "e46cda8e38e0b758525262ff5297e196f8d291bdc758d502cae9f05465fb3ae9",
       "mode": 420
     },
     {
       "source": "files/.pi/gentle-ai/profiles.json",
       "target": ".pi/gentle-ai/profiles.json",
-      "sha256": "4e2339f67a27bd6c2104bed109e8998a2199f7f54688161a9957e1d4aa95ea1f",
+      "sha256": "550b13dfe9fc16bc31665e0cea214f244007bf7e75114f0f5348044d008b4c2f",
       "mode": 420
     }
   ],
   "dependencies": {
     "pi": {
       "name": "@earendil-works/pi-coding-agent",
-      "version": "1.4.0",
+      "version": "1.5.2",
       "node": ">=22.19.0"
     },
     "packages": [
-      "npm:gentle-pi@4.5.1",
-      "npm:gentle-engram@0.4.2",
-      "npm:pi-web-access@0.46.0",
-      "npm:pi-btw@0.8.0",
-      "npm:pi-claude-bridge@0.9.3"
+      "npm:gentle-pi@4.7.0",
+      "npm:gentle-engram@0.7.0",
+      "npm:pi-web-access@0.47.0",
+      "npm:pi-btw@0.8.1",
+      "npm:pi-claude-bridge@0.12.0"
     ],
     "mcp": {
       "context7": "@upstash/context7-mcp@2.2.5",
@@ -889,6 +937,14 @@
     ".config/herdr-app/mods/tui-prefix/main.js": "Herdr app (personal)",
     ".config/herdr-app/mods/tui-prefix/mod.json": "Herdr app (personal)",
     ".config/herdr-app/mods/tui-prefix/shortcuts.test.mjs": "Herdr app (personal)",
+    ".config/hypr/hyprland.lua": "Hyprland",
+    ".config/hypr/autostart.lua": "Hyprland",
+    ".config/hypr/bindings.lua": "Hyprland",
+    ".config/hypr/input.lua": "Hyprland",
+    ".config/hypr/looknfeel.lua": "Hyprland",
+    ".config/hypr/monitors.lua": "Hyprland",
+    ".config/hypr/hyprsunset.conf": "Hyprland",
+    ".config/hypr/xdph.conf": "Hyprland",
     ".agents/skills/_shared/README.md": "local",
     ".agents/skills/_shared/engram-convention.md": "local",
     ".agents/skills/_shared/persistence-contract.md": "local",

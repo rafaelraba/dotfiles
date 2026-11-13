@@ -1,14 +1,14 @@
 {
-  "defaultModel": "kimi-k3.1-pro",
-  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4-flash",
+  "defaultProvider": "nan",
   "defaultThinkingLevel": "medium",
-  "lastChangelogVersion": "1.4.0",
+  "lastChangelogVersion": "1.5.2",
   "packages": [
-    "npm:gentle-pi@4.5.1",
-    "npm:gentle-engram@0.4.2",
-    "npm:pi-web-access@0.46.0",
-    "npm:pi-btw@0.8.0",
-    "npm:pi-claude-bridge@0.9.3"
+    "npm:gentle-pi@4.7.0",
+    "npm:gentle-engram@0.7.0",
+    "npm:pi-web-access@0.47.0",
+    "npm:pi-btw@0.8.1",
+    "npm:pi-claude-bridge@0.12.0"
   ],
   "extensions": [
     "-builtin:codemode"
@@ -16,6 +16,9 @@
   "theme": "omarchy-system",
   "tuiMode": "fullscreen",
   "hideThinkingBlock": true,
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0"
+  },
   "skills": [
     "../../.agents/skills"
   ]

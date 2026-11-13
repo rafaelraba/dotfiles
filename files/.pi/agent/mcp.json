@@ -1,5 +1,12 @@
 {
   "mcpServers": {
+    "codegraph": {
+      "args": [
+        "serve",
+        "--mcp"
+      ],
+      "command": "codegraph"
+    },
     "context7": {
       "args": [],
       "command": "~/.pi/mcp/node_modules/.bin/context7-mcp"
