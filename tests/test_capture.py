@@ -145,6 +145,28 @@ class CaptureTests(unittest.TestCase):
         self.assertEqual(manifest['origins']['.config/herdr-app/keys.json'], 'Herdr app (personal)')
         self.assertTrue((repo / 'files/.config/herdr-app/mods/scratch/main.js').is_file())
 
+    def test_claude_settings_and_statusline_captured_with_portable_paths(self):
+        home = self.root / 'source user'
+        repo = self.root / 'snapshot'
+        repo.mkdir()
+        claude = home / '.claude'
+        (claude / 'hooks').mkdir(parents=True)
+        (claude / 'statusline.sh').write_text('#!/bin/bash\necho ok\n')
+        (claude / '.credentials.json').write_text('{"token": "x"}')
+        settings = {'statusLine': {'type': 'command', 'command': 'bash ' + str(claude) + '/statusline.sh'},
+                    'hooks': {'SessionStart': [{'hooks': [{'type': 'command',
+                              'command': "bash '" + str(claude) + "/hooks/herdr-agent-state.sh' session"}]}]}}
+        (claude / 'settings.json').write_text(json.dumps(settings))
+        with patch.object(self.module, 'pi_metadata', return_value={'name': 'pi', 'version': '1.0.0'}):
+            manifest = self.module.capture(repo, home, apply=True)
+        self.assertEqual(manifest['origins']['.claude/statusline.sh'], 'Claude Code')
+        targets = {entry['target'] for entry in manifest['files']}
+        self.assertNotIn('.claude/.credentials.json', targets)
+        saved = json.loads((repo / 'files/.claude/settings.json').read_text())
+        self.assertEqual(saved['statusLine']['command'], 'bash ~/.claude/statusline.sh')
+        self.assertEqual(saved['hooks']['SessionStart'][0]['hooks'][0]['command'],
+                         'bash ~/.claude/hooks/herdr-agent-state.sh session')
+
     def test_herdr_without_installed_list_fails_closed(self):
         home = self.root / 'source user'
         root = self.herdr_fixture(home)

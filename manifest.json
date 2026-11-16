@@ -68,6 +68,18 @@
       "mode": 420
     },
     {
+      "source": "files/.claude/settings.json",
+      "target": ".claude/settings.json",
+      "sha256": "4df39fff78ce868dd6a90da44736354cdeba6993f6e8ae64218d4e939ffa6605",
+      "mode": 420
+    },
+    {
+      "source": "files/.claude/statusline.sh",
+      "target": ".claude/statusline.sh",
+      "sha256": "23a8e2f1002a8b265f864733ba773f6c37e06a45d52e84c445c972c6297aa69d",
+      "mode": 420
+    },
+    {
       "source": "files/.config/alacritty/alacritty.toml",
       "target": ".config/alacritty/alacritty.toml",
       "sha256": "01f3c8ee3101514d10f3dddf65e3650d6d7c4a8e29b1efe0ffa703db8c029fda",
@@ -770,12 +782,6 @@
       "mode": 420
     },
     {
-      "source": "files/.config/systemd/user/moshi-hook.service",
-      "target": ".config/systemd/user/moshi-hook.service",
-      "sha256": "f3b1089fb353be2fc3ddb898eb1419702a5ebd605c90127bfb1d5c4b261d885e",
-      "mode": 420
-    },
-    {
       "source": "files/.config/systemd/user/voxtype.service",
       "target": ".config/systemd/user/voxtype.service",
       "sha256": "040ec7af485ac052af4383190ab97552cc87a44bc00eb919e4897d1c23076ef1",
@@ -791,12 +797,6 @@
       "source": "files/.pi/agent/extensions/herdr-agent-state.ts",
       "target": ".pi/agent/extensions/herdr-agent-state.ts",
       "sha256": "9b1c41cd72520fc2abe5f2a2aec995c12a926cce844df472c7fd5fcae4f4dbfa",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/extensions/moshi-hooks.ts",
-      "target": ".pi/agent/extensions/moshi-hooks.ts",
-      "sha256": "78267426dae1468cd9ec5ab43d388b51363062976f9681fbb473d19740ca374b",
       "mode": 420
     },
     {
@@ -905,6 +905,8 @@
     ".config/hypr/monitors.lua": "Hyprland",
     ".config/hypr/hyprsunset.conf": "Hyprland",
     ".config/hypr/xdph.conf": "Hyprland",
+    ".claude/settings.json": "Claude Code",
+    ".claude/statusline.sh": "Claude Code",
     ".config/omarchy/shell.json": "Omarchy desktop",
     ".config/omarchy/extensions/omarchy-menu.jsonc": "Omarchy desktop",
     ".config/omarchy/branding/about.txt": "Omarchy desktop",
@@ -955,7 +957,6 @@
     ".config/nvim/stylua.toml": "Omarchy desktop",
     ".config/input-remapper-2/presets/Kensington SlimBlade Pro(2.4GHz Receiver) Kensington SlimBlade Pro Trackball(2.4GHz Receiver)/Navigation.json": "Omarchy desktop",
     ".config/systemd/user/app-com.mitchellh.ghostty.service.d/override.conf": "Omarchy desktop",
-    ".config/systemd/user/moshi-hook.service": "Omarchy desktop",
     ".config/systemd/user/voxtype.service": "Omarchy desktop",
     ".config/omarchy/backgrounds/catppuccin/car.jpg": "Omarchy desktop (image)",
     ".config/omarchy/backgrounds/catppuccin/wonder.jpg": "Omarchy desktop (image)",
@@ -974,7 +975,6 @@
     ".agents/skills/omarchy-app/SKILL.md": "Omarchy vendored resource",
     ".agents/skills/omarchy-app/templates.md": "Omarchy vendored resource",
     ".pi/agent/extensions/herdr-agent-state.ts": "local",
-    ".pi/agent/extensions/moshi-hooks.ts": "local",
     ".pi/agent/extensions/statusline.ts": "local",
     ".pi/agent/themes/omarchy-system.json": "local",
     ".config/fish/functions/chrome-x.fish": "local",
