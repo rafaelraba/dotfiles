@@ -1,6 +1,6 @@
-# Portable Pi and Fish configuration
+# Portable Pi, Fish and Omarchy desktop configuration
 
-A reviewed snapshot of Pi preferences/resources, local skills (with supporting files), Fish startup, and Starship. Restore copies owned files only; it never installs dependencies, deletes unrelated files, or restores credentials.
+A reviewed snapshot of Pi preferences/resources, local skills (with supporting files), Fish startup, Starship, Hyprland and the Herdr app. Restore copies owned files only; it never installs dependencies, deletes unrelated files, or restores credentials.
 
 ## Quick start
 
@@ -33,40 +33,38 @@ Python 3.9+ is sufficient for restoration. Linux is the intended target. Install
 After restoring, use Node.js **22.19+** and npm. Review third-party packages before installing them. These commands are instructions, not commands run by restore:
 
 ```sh
-npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.1.0
+npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.5.2
 pi update --extensions
-npm install --prefix "$HOME/.pi/mcp" --ignore-scripts --no-audit --no-fund @upstash/context7-mcp@2.2.5
 ```
 
-`pi update --extensions` reconciles the pinned declarations already restored in `~/.pi/agent/settings.json`. Plain `pi update` updates Pi itself; it is **not** the package reinstall command. Installed Pi 1.1.0 documentation confirms this distinction. Package pins were read from installed metadata:
+`pi update --extensions` reconciles the pinned declarations already restored in `~/.pi/agent/settings.json`. Plain `pi update` updates Pi itself; it is **not** the package reinstall command. Package pins were read from installed metadata:
 
 | Package | Version |
 |---|---|
-| gentle-pi | 4.0.0 |
-| gentle-engram | 0.4.2 |
-| pi-web-access | 0.38.0 |
-| pi-btw | 0.8.0 |
+| pi-web-access | 0.47.0 |
+| pi-btw | 0.8.1 |
+| pi-claude-bridge | 0.12.0 |
 
-Direct install alternatives are `pi install npm:gentle-pi@4.0.0`, `pi install npm:gentle-engram@0.4.2`, `pi install npm:pi-web-access@0.38.0`, and `pi install npm:pi-btw@0.8.0`. Reconciliation is preferred because it preserves settings filters.
+Direct install alternatives are `pi install npm:pi-web-access@0.47.0`, `pi install npm:pi-btw@0.8.1` and `pi install npm:pi-claude-bridge@0.12.0`. Reconciliation is preferred because it preserves settings filters. No MCP servers are configured (`mcp.json` is empty). No dependency installation or network connectivity was tested here.
 
-Context7's version comes from the original MCP declaration, not independently verified installed metadata. Its command now points to `~/.pi/mcp/node_modules/.bin/context7-mcp`: starting Pi will **not** implicitly download it with `npx -y`. Install it with the separate command above. Engram requires its own executable on PATH (or `ENGRAM_BIN`); its binary version was not verified or bundled. Install it using its upstream instructions. No dependency installation or network connectivity was tested here. npm top-level pins do not lock the entire transitive dependency graph or guarantee continued registry availability.
-
-Run `/login` in Pi to authenticate again and select an available model if the saved model is unavailable to your account. MCP entries contain no credentials in this snapshot. If future capture redacts credential fields, `manifest.json` lists their key paths and replaces string fields with `${VARIABLE_NAME}` placeholders; supply the corresponding variables privately, never commit them. Other services may require separate authentication. Built-in Pi MCP understands these placeholders; `directTools` and `lifecycle` in the original Engram entry are retained legacy adapter options, not built-in exposure controls.
-
-The old `~/.pi/npm/package.json` only declares `pi-mcp-adapter` with an unpinned range, has no installed package metadata, and is not referenced by current Pi settings. It is omitted rather than pretending it is a pinned dependency. Pi 1.1.0 has built-in MCP support.
+Run `/login` in Pi to authenticate again and select an available model if the saved model is unavailable to your account. If future capture redacts credential fields, `manifest.json` lists their key paths and replaces string fields with `${VARIABLE_NAME}` placeholders; supply the corresponding variables privately, never commit them.
 
 ## What is included
 
 | Resource | Portable treatment |
 |---|---|
-| Pi settings, theme, subagent model profiles | Package sources pinned; paths relative to the agent directory |
-| `~/.pi/gentle-ai/{persona,banner,models,profiles}.json` | Saved persona, appearance, agent models and active profile |
-| Agents, chains, Herdr extension, Gentle AI support docs | Current resources preserved, including package-managed agent copies; Herdr is optional and its extension is inactive without its environment |
-| `~/.agents/skills` | Local source skills and `_shared` references copied recursively; package skills remain package dependencies |
+| Pi settings, keybindings, `omarchy-system` theme, empty `mcp.json` | Package sources pinned; paths relative to the agent directory |
+| Pi extensions (`herdr-agent-state`, `moshi-hooks`, `statusline`) | Copied as-is; Herdr/Moshi integrations stay inactive without their environment |
+| `~/.agents/skills` | Local source skills copied recursively; package skills remain package dependencies |
 | Omarchy, omarchy-app and diagnose-crash skills | Dereferenced into ordinary skill directories with their supporting Markdown; no host symlinks |
 | Fish and Starship | Startup plus reviewed empty `fish_greeting`; no universal-variable dump |
 | Aliases | Reviewed portable subset of Omarchy Bash defaults translated to Fish in `conf.d/20-portable-aliases.fish` |
+| Hyprland (`~/.config/hypr`) | `hyprland.lua`, `autostart.lua`, `bindings.lua`, `input.lua`, `looknfeel.lua`, `monitors.lua`, `hyprsunset.conf`, `xdph.conf` |
 | Herdr app (`~/.config/herdr-app`) | Personal files only: `keys.json`, `settings.json`, `programs.json`, layouts and mods not listed in Herdr's `installed.json` (code, `mod.json`, SVG icons, licenses). Shipped mods/layouts, generated `.d.ts`/`jsconfig.json`, binaries, backups and app state are left out; Herdr regenerates them |
+| Omarchy (`~/.config/omarchy`) | `shell.json`, menu extension, branding, `defaults/{agent,dictation}`, personal hooks (`install-voxtype`, `setup-agent`, `setup-fingerprint`, `10-owe-sync`) and per-theme backgrounds (images). Shipped `*.sample` files and git-cloned themes are left out |
+| Terminals and tools | `alacritty.toml`, `ghostty/config`, `git/{config,ignore}`, `herdr/{config.toml,plugins.json}`, `btop.conf`, `mise/config.toml`, `voxtype/config.toml`, `input-remapper-2` (config + presets), `environment.d`, `mimeapps.list` |
+| Neovim (`~/.config/nvim`) | LazyVim config, plugins and `lazy-lock.json`; Lazy reinstalls plugins on first start |
+| systemd user units | `voxtype.service`, `moshi-hook.service`, Ghostty override. Enablement links are not restored (see below) |
 
 Pi discovers `~/.agents/skills` natively; settings also explicitly list `../../.agents/skills` relative to `~/.pi/agent`. The duplicate live Omarchy links in `~/.pi/agent/skills` are intentionally not recreated. Package-provided skills are installed by the pinned Pi packages, not copied from node_modules. Omarchy/crash skill instructions remain available elsewhere, but their system-specific commands still require Omarchy/Linux/systemd tools. They are not a desktop backup.
 
@@ -77,6 +75,22 @@ Fish autoload shortcuts in `~/.config/fish/functions/` make `nvim` without argum
 At initial capture, Fish had no personal alias functions, abbreviations, or binding files. Its only universal variable was the empty greeting. `.bashrc` had no personal overrides and sourced Omarchy defaults. Portable aliases include directory traversal, Git, optional eza/Docker/Rails/tmux/nvim, and Linux `xdg-open`. Desktop/agent launchers, automatic approval aliases (`cx`, `cy`), mise update shortcuts, fzf/editor/zoxide helpers, and distribution Bash functions/completions/inputrc are intentionally omitted. Bash itself is not restored.
 
 Known resource-path tokens are translated to `~/.agents/...` or `~/.pi/...`; arbitrary home substrings are not rewritten. Unknown `/home/...` or `/Users/...` paths cause capture to fail for review. Script code is not generically templated.
+
+## After restoring on a new Omarchy machine
+
+Steps restore cannot do for you:
+
+```sh
+omarchy theme install https://github.com/bjarneo/omarchy-aura-theme   # aura theme (git clone)
+systemctl --user daemon-reload
+systemctl --user enable --now moshi-hook.service owed.service bt-agent.service
+hyprctl reload
+```
+
+- `moshi-hook` expects its binary at `~/.local/bin/moshi-hook`; `voxtype.service` is restored but left disabled, as on the original machine.
+- Neovim's `mdscope.lua` loads a local plugin from `~/Code/mdscope.nvim`; clone it there or remove that file.
+- The Omarchy hooks install voxtype, the agent and fingerprint setup on the next `omarchy update`.
+- `git/config` contains your name and email (this repository is public; the email already appears in commit metadata).
 
 ## Safety and backups
 
@@ -101,4 +115,4 @@ Capture reads explicit resource roots, not the entire home. It pins packages fro
 
 ## Exclusions
 
-Credentials/API keys/OAuth state, `.env` files, private keys, histories, sessions, trust decisions, model catalogs/store, caches, logs, package directories, installer-managed asset indexes, backups, personal project instructions, and desktop configuration are excluded. No live configuration, home Git branch, task progress document, or package installation is modified by preparing this snapshot. Generated artifacts and documentation are in English; skill instruction language is preserved from its source.
+Credentials/API keys/OAuth state, `.env` files, private keys, histories, sessions, trust decisions, model catalogs/store, caches, logs, package directories, installer-managed asset indexes, backups, personal project instructions, Omarchy shipped defaults and git-cloned themes are excluded. No live configuration, home Git branch, task progress document, or package installation is modified by preparing this snapshot. Generated artifacts and documentation are in English; skill instruction language is preserved from its source.

@@ -1,0 +1,24 @@
+[
+  {
+    "input_combination": [
+      {
+        "type": 1,
+        "code": 274
+      }
+    ],
+    "target_uinput": "mouse",
+    "output_type": 1,
+    "output_code": 275
+  },
+  {
+    "input_combination": [
+      {
+        "type": 1,
+        "code": 275
+      }
+    ],
+    "target_uinput": "mouse",
+    "output_type": 1,
+    "output_code": 276
+  }
+]

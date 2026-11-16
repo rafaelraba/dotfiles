@@ -63,10 +63,12 @@ class SnapshotCliTests(unittest.TestCase):
         count = 0
         for path in (REPO / 'files').rglob('*'):
             self.assertFalse(path.is_symlink(), str(path.relative_to(REPO)))
-            if path.is_file():
+            if path.is_file() and path.suffix.lower() in module.BINARY_SUFFIXES:
+                count += 1
+            elif path.is_file():
                 text = path.read_text()
                 module.audit(text, str(path.relative_to(REPO)))
-                self.assertNotRegex(text, r'/home/[^/\s]+|/Users/[^/\s]+')
+                self.assertNotRegex(text, r'/home/(?!user\b)[^/\s]+|/Users/[^/\s]+')
                 count += 1
         manifest = json.loads((REPO / 'manifest.json').read_text())
         self.assertEqual(count, len(manifest['files']))

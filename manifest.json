@@ -68,6 +68,24 @@
       "mode": 420
     },
     {
+      "source": "files/.config/alacritty/alacritty.toml",
+      "target": ".config/alacritty/alacritty.toml",
+      "sha256": "01f3c8ee3101514d10f3dddf65e3650d6d7c4a8e29b1efe0ffa703db8c029fda",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/btop/btop.conf",
+      "target": ".config/btop/btop.conf",
+      "sha256": "4e17dd28c43948af48a408ed9b0901c008e57dfe3b8fcf09649ec10f28746137",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/environment.d/omarchy-firefox-wayland.conf",
+      "target": ".config/environment.d/omarchy-firefox-wayland.conf",
+      "sha256": "4a75100114cf022c08595f5be0777f41e5ca19c29b77c6f335b047a2112a7b36",
+      "mode": 420
+    },
+    {
       "source": "files/.config/fish/conf.d/10-portable-greeting.fish",
       "target": ".config/fish/conf.d/10-portable-greeting.fish",
       "sha256": "40f111f5eb48b198aceb8f465ad91ac262eee84ed0d0fdf7de4ace2e6440a127",
@@ -107,6 +125,24 @@
       "source": "files/.config/fish/functions/nvim.fish",
       "target": ".config/fish/functions/nvim.fish",
       "sha256": "8013dcd8a346e040b2a8244b3d2831ed3a8402068e88b39c9349e6b31cc89503",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/ghostty/config",
+      "target": ".config/ghostty/config",
+      "sha256": "9611ca123716cf1cb005547c5eb200622651b19f09f65aa113b4adb37e8293f7",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/git/config",
+      "target": ".config/git/config",
+      "sha256": "0b07416fd2410623b37538487f11de5c390dd5a9f50012b09ca8ae01ca37df15",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/git/ignore",
+      "target": ".config/git/ignore",
+      "sha256": "1a377e8e10315d1e8b44caf5bfe181da8320a024e4f3316b1cf1d91f9db274b3",
       "mode": 420
     },
     {
@@ -392,6 +428,18 @@
       "mode": 420
     },
     {
+      "source": "files/.config/herdr/config.toml",
+      "target": ".config/herdr/config.toml",
+      "sha256": "38c68981d19cf877fd1c076c744bc65fa905d8b3f5dc9bfd5b217fd9bf67aee3",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/herdr/plugins.json",
+      "target": ".config/herdr/plugins.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "mode": 420
+    },
+    {
       "source": "files/.config/hypr/autostart.lua",
       "target": ".config/hypr/autostart.lua",
       "sha256": "907eddc68deabc3ecb5c3337bf76ebb90a7603052e203ac35e50235348a5b65d",
@@ -440,9 +488,303 @@
       "mode": 420
     },
     {
+      "source": "files/.config/input-remapper-2/config.json",
+      "target": ".config/input-remapper-2/config.json",
+      "sha256": "431e112521eb054f961b786c25280e5d8f7110a3d8ad1e7842a01f3c7c5af574",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/input-remapper-2/presets/Kensington SlimBlade Pro(2.4GHz Receiver) Kensington SlimBlade Pro Trackball(2.4GHz Receiver)/Navigation.json",
+      "target": ".config/input-remapper-2/presets/Kensington SlimBlade Pro(2.4GHz Receiver) Kensington SlimBlade Pro Trackball(2.4GHz Receiver)/Navigation.json",
+      "sha256": "d11c35c34abd8e861fc7b7dfe9c1be9c621eee88123711d1f5e8aaee4d15af6d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/mimeapps.list",
+      "target": ".config/mimeapps.list",
+      "sha256": "4b0bc333627b65eb3750d9153eb4305833450055e0baf6a1bca6a01f0b5aa2f3",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/mise/config.toml",
+      "target": ".config/mise/config.toml",
+      "sha256": "75f4df65bc324911be30be361d1c7ded4af985f634fedbef673cb3462da443a9",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/.gitignore",
+      "target": ".config/nvim/.gitignore",
+      "sha256": "f284e46933d658c493bafc852fe1bb46f54e5dbe479c251a739139517d4683ec",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/.neoconf.json",
+      "target": ".config/nvim/.neoconf.json",
+      "sha256": "1819a5b64b71521f214b374bdb3b4dd7531a2b91b881c0803e0029811da7f3e4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/LICENSE",
+      "target": ".config/nvim/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/README.md",
+      "target": ".config/nvim/README.md",
+      "sha256": "9969960a98455417b5f3781772f01528a64bb450e5f9db57734713ae920bd84a",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/init.lua",
+      "target": ".config/nvim/init.lua",
+      "sha256": "3b2d6e9976a515b7c8df08ed7c7f61a5751e9c08a6ff5579d621b87312c9e2c6",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lazy-lock.json",
+      "target": ".config/nvim/lazy-lock.json",
+      "sha256": "0451f752a8152d8fdcb9a110b7aa8ef71432d532946ad7d2c78dc4ec5293831a",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lazyvim.json",
+      "target": ".config/nvim/lazyvim.json",
+      "sha256": "63fe58e33ae7f75c04566fdef63414d01c658c21ddb649e39d5ff233ff29de5c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/config/autocmds.lua",
+      "target": ".config/nvim/lua/config/autocmds.lua",
+      "sha256": "14c7da31a920ae3f5609e966e5f8f3b508274491cf2bbf09b1adf27a1e4a783b",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/config/keymaps.lua",
+      "target": ".config/nvim/lua/config/keymaps.lua",
+      "sha256": "660a7d9a603a1b20b9ac13384ee21093f648646d8f4d575c52c5e5d9847f6764",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/config/lazy.lua",
+      "target": ".config/nvim/lua/config/lazy.lua",
+      "sha256": "14653a615b10689aa91915f45c284d07d5e7cb6c5f21fdbbf82c7664b9db4eb0",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/config/options.lua",
+      "target": ".config/nvim/lua/config/options.lua",
+      "sha256": "7c924d2eb9e707fba115ccc660082a8920901b25d28af338df0f9db14934dd25",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/config/remote_clipboard.lua",
+      "target": ".config/nvim/lua/config/remote_clipboard.lua",
+      "sha256": "749a7106b5a8092e2a29724d8fc6c663ad3510447d0174a16330ac7a9a93c1e7",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/all-themes.lua",
+      "target": ".config/nvim/lua/plugins/all-themes.lua",
+      "sha256": "ff66d3740b2553e4948cb56fc02e84bbbf061931ad2f90a93b4eac3c1a822cdf",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/bufferline.lua",
+      "target": ".config/nvim/lua/plugins/bufferline.lua",
+      "sha256": "3bfd7283d07dc1c8234ea22ea26fafbd013fcad477a782c5ed0784f011ab1402",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/disable-news-alert.lua",
+      "target": ".config/nvim/lua/plugins/disable-news-alert.lua",
+      "sha256": "5e27ebfe77359f9a42a478fb01671962801fbba6846cc72c19c7313ccd8333be",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/example.lua",
+      "target": ".config/nvim/lua/plugins/example.lua",
+      "sha256": "63cab8b37a319da640b073b6d654b11952776eac8cb55d8a6ac00e5f171366ba",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/intellij-lsp.lua",
+      "target": ".config/nvim/lua/plugins/intellij-lsp.lua",
+      "sha256": "9851f13e9220b5c25e94f50a60f9144200dc7ad22b60bced5762d5ca3f992415",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/lualine-transparent.lua",
+      "target": ".config/nvim/lua/plugins/lualine-transparent.lua",
+      "sha256": "d59f78b55f99ced1423db44b84b97f855daa49e7ba8b9ce9a432aab73075bcb7",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/markdown-preview.lua",
+      "target": ".config/nvim/lua/plugins/markdown-preview.lua",
+      "sha256": "726ae359f9a7721ba476f79b0d50ee4cfbd043a00bc61933242d5ff6cc379cf2",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/mdscope.lua",
+      "target": ".config/nvim/lua/plugins/mdscope.lua",
+      "sha256": "27557c6f5ea95009c6c6bbae641489c95032b83678285930af0bfeaf019c555c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/oil.lua",
+      "target": ".config/nvim/lua/plugins/oil.lua",
+      "sha256": "e340514b311d19db37ac5dde0a27a8704b996a31ad7f9887e4e7d9d0a21f245d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/omarchy-theme-hotreload.lua",
+      "target": ".config/nvim/lua/plugins/omarchy-theme-hotreload.lua",
+      "sha256": "d4f74ba06eec038006daf7ac509ac4102270c634c6b5a80babce037503a8e2a1",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/lua/plugins/snacks-animated-scrolling-off.lua",
+      "target": ".config/nvim/lua/plugins/snacks-animated-scrolling-off.lua",
+      "sha256": "e3dc59bf119a30f3e4a712c048902350dad188e4ebfd9a718820d3145e43d57a",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/markdown-preview.css",
+      "target": ".config/nvim/markdown-preview.css",
+      "sha256": "054e4ab35fb0f8a2b535aa0184f85f17dd52b1523bde6792e36ade9bba712b85",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/plugin/after/transparency.lua",
+      "target": ".config/nvim/plugin/after/transparency.lua",
+      "sha256": "2f4ab7aa4ddf3ee57a6ab9fdd4fd467659b0843703989a977f3735dc324418cc",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/nvim/stylua.toml",
+      "target": ".config/nvim/stylua.toml",
+      "sha256": "59841fbcee7b707144c6a470e96e96e96062d7a59d2e45bac445984d863e1af2",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/backgrounds/catppuccin/car.jpg",
+      "target": ".config/omarchy/backgrounds/catppuccin/car.jpg",
+      "sha256": "888711ce1ccabce6a07ccb162728861c5596fbce46a9dec740fdcb05a4e5d6e5",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/backgrounds/catppuccin/wonder.jpg",
+      "target": ".config/omarchy/backgrounds/catppuccin/wonder.jpg",
+      "sha256": "acbd8dfcd13f12e9bd94b66f9137f648dae2060da4bcf5c50a263c2f611e54c6",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/backgrounds/hackerman/astronaut-dark.jpg",
+      "target": ".config/omarchy/backgrounds/hackerman/astronaut-dark.jpg",
+      "sha256": "6b45320eb4f8bff9bf0875f887d8eaea8ac4f35ebbcd0f45d5e079b269f2b74c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/backgrounds/hackerman/biker-road.jpg",
+      "target": ".config/omarchy/backgrounds/hackerman/biker-road.jpg",
+      "sha256": "ce2f7b1d473ef8ba6bc69231e63d930572c31f1f48cf304ab89288ac6db1cc7a",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/backgrounds/hackerman/soccer.jpg",
+      "target": ".config/omarchy/backgrounds/hackerman/soccer.jpg",
+      "sha256": "e37e4523d8ca42986a980cbb8477f298485dbee13ef4b5110d201380bb2a695d",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/branding/about.txt",
+      "target": ".config/omarchy/branding/about.txt",
+      "sha256": "5fe8adced2fe67e410e177477a7272d1807b3fedc81fbc3f030dd479bc046b76",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/branding/screensaver.txt",
+      "target": ".config/omarchy/branding/screensaver.txt",
+      "sha256": "f98c966b1670d71ffc26620a6ff885a73ab355b370bff6082cea3215ee580a29",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/defaults/agent",
+      "target": ".config/omarchy/defaults/agent",
+      "sha256": "98038b25280788a45a2f06c209513024c99adee81c6416b691b4b5872db7e027",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/defaults/dictation",
+      "target": ".config/omarchy/defaults/dictation",
+      "sha256": "eea4a6183bb43bce5838e5a4dfe355e3bab2c2800ee1135ba04d2994c482d9ba",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/extensions/omarchy-menu.jsonc",
+      "target": ".config/omarchy/extensions/omarchy-menu.jsonc",
+      "sha256": "1ca0fdf7d2c0976f0e4c5d8c8a5d5eeeddc693ad05c72809638eeb730c9f470c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/omarchy/hooks/post-update.d/install-voxtype.hook",
+      "target": ".config/omarchy/hooks/post-update.d/install-voxtype.hook",
+      "sha256": "2e20b0aa831f2dacc0e4c575a38e2340ffe71aebebc831b54095d643375e9a24",
+      "mode": 493
+    },
+    {
+      "source": "files/.config/omarchy/hooks/post-update.d/setup-agent.hook",
+      "target": ".config/omarchy/hooks/post-update.d/setup-agent.hook",
+      "sha256": "98aba3f4cc5eee152ef2a21845d272bc5ca42d233ea5bb8511f2d49c953ae80b",
+      "mode": 493
+    },
+    {
+      "source": "files/.config/omarchy/hooks/post-update.d/setup-fingerprint.hook",
+      "target": ".config/omarchy/hooks/post-update.d/setup-fingerprint.hook",
+      "sha256": "f055edec7ce572ca75e4b0c23bb880d1d08dac96f042c72d4f5bdd1679adbfc5",
+      "mode": 493
+    },
+    {
+      "source": "files/.config/omarchy/hooks/theme-set.d/10-owe-sync",
+      "target": ".config/omarchy/hooks/theme-set.d/10-owe-sync",
+      "sha256": "280168783345d90adf2b65734daff031d696223e6a0d141f0bc2e268454deb50",
+      "mode": 493
+    },
+    {
+      "source": "files/.config/omarchy/shell.json",
+      "target": ".config/omarchy/shell.json",
+      "sha256": "3f043a786299efd508dc0e8d568793f3b5de4a008ce19c7ccb7d7257d070c01b",
+      "mode": 420
+    },
+    {
       "source": "files/.config/starship.toml",
       "target": ".config/starship.toml",
       "sha256": "333fbfcccd5c9f312c7abbbbd6ecb02c4afd30c139d24fe5d3d521ba7caa6a52",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/systemd/user/app-com.mitchellh.ghostty.service.d/override.conf",
+      "target": ".config/systemd/user/app-com.mitchellh.ghostty.service.d/override.conf",
+      "sha256": "e39c82662c40342e204bd6988a5c3953dea74b044f45c6603416ec646b142a2c",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/systemd/user/moshi-hook.service",
+      "target": ".config/systemd/user/moshi-hook.service",
+      "sha256": "f3b1089fb353be2fc3ddb898eb1419702a5ebd605c90127bfb1d5c4b261d885e",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/systemd/user/voxtype.service",
+      "target": ".config/systemd/user/voxtype.service",
+      "sha256": "040ec7af485ac052af4383190ab97552cc87a44bc00eb919e4897d1c23076ef1",
+      "mode": 420
+    },
+    {
+      "source": "files/.config/voxtype/config.toml",
+      "target": ".config/voxtype/config.toml",
+      "sha256": "0026bc1a85b92439e79a39f8a12a47f4148e91824c0c3ed893f77ba15a6902c3",
       "mode": 420
     },
     {
@@ -499,10 +841,7 @@
       "npm:pi-btw@0.8.1",
       "npm:pi-claude-bridge@0.12.0"
     ],
-    "mcp": {
-      "context7": "@upstash/context7-mcp@2.2.5",
-      "engram": "external executable; version not verified"
-    }
+    "mcp": []
   },
   "redacted_fields": [],
   "origins": {
@@ -566,6 +905,63 @@
     ".config/hypr/monitors.lua": "Hyprland",
     ".config/hypr/hyprsunset.conf": "Hyprland",
     ".config/hypr/xdph.conf": "Hyprland",
+    ".config/omarchy/shell.json": "Omarchy desktop",
+    ".config/omarchy/extensions/omarchy-menu.jsonc": "Omarchy desktop",
+    ".config/omarchy/branding/about.txt": "Omarchy desktop",
+    ".config/omarchy/branding/screensaver.txt": "Omarchy desktop",
+    ".config/omarchy/defaults/agent": "Omarchy desktop",
+    ".config/omarchy/defaults/dictation": "Omarchy desktop",
+    ".config/alacritty/alacritty.toml": "Omarchy desktop",
+    ".config/ghostty/config": "Omarchy desktop",
+    ".config/git/config": "Omarchy desktop",
+    ".config/git/ignore": "Omarchy desktop",
+    ".config/herdr/config.toml": "Omarchy desktop",
+    ".config/herdr/plugins.json": "Omarchy desktop",
+    ".config/btop/btop.conf": "Omarchy desktop",
+    ".config/mise/config.toml": "Omarchy desktop",
+    ".config/voxtype/config.toml": "Omarchy desktop",
+    ".config/input-remapper-2/config.json": "Omarchy desktop",
+    ".config/environment.d/omarchy-firefox-wayland.conf": "Omarchy desktop",
+    ".config/mimeapps.list": "Omarchy desktop",
+    ".config/omarchy/hooks/post-update.d/install-voxtype.hook": "Omarchy desktop",
+    ".config/omarchy/hooks/post-update.d/setup-agent.hook": "Omarchy desktop",
+    ".config/omarchy/hooks/post-update.d/setup-fingerprint.hook": "Omarchy desktop",
+    ".config/omarchy/hooks/theme-set.d/10-owe-sync": "Omarchy desktop",
+    ".config/nvim/.gitignore": "Omarchy desktop",
+    ".config/nvim/.neoconf.json": "Omarchy desktop",
+    ".config/nvim/LICENSE": "Omarchy desktop",
+    ".config/nvim/README.md": "Omarchy desktop",
+    ".config/nvim/init.lua": "Omarchy desktop",
+    ".config/nvim/lazy-lock.json": "Omarchy desktop",
+    ".config/nvim/lazyvim.json": "Omarchy desktop",
+    ".config/nvim/lua/config/autocmds.lua": "Omarchy desktop",
+    ".config/nvim/lua/config/keymaps.lua": "Omarchy desktop",
+    ".config/nvim/lua/config/lazy.lua": "Omarchy desktop",
+    ".config/nvim/lua/config/options.lua": "Omarchy desktop",
+    ".config/nvim/lua/config/remote_clipboard.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/all-themes.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/bufferline.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/disable-news-alert.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/example.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/intellij-lsp.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/lualine-transparent.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/markdown-preview.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/mdscope.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/oil.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/omarchy-theme-hotreload.lua": "Omarchy desktop",
+    ".config/nvim/lua/plugins/snacks-animated-scrolling-off.lua": "Omarchy desktop",
+    ".config/nvim/markdown-preview.css": "Omarchy desktop",
+    ".config/nvim/plugin/after/transparency.lua": "Omarchy desktop",
+    ".config/nvim/stylua.toml": "Omarchy desktop",
+    ".config/input-remapper-2/presets/Kensington SlimBlade Pro(2.4GHz Receiver) Kensington SlimBlade Pro Trackball(2.4GHz Receiver)/Navigation.json": "Omarchy desktop",
+    ".config/systemd/user/app-com.mitchellh.ghostty.service.d/override.conf": "Omarchy desktop",
+    ".config/systemd/user/moshi-hook.service": "Omarchy desktop",
+    ".config/systemd/user/voxtype.service": "Omarchy desktop",
+    ".config/omarchy/backgrounds/catppuccin/car.jpg": "Omarchy desktop (image)",
+    ".config/omarchy/backgrounds/catppuccin/wonder.jpg": "Omarchy desktop (image)",
+    ".config/omarchy/backgrounds/hackerman/astronaut-dark.jpg": "Omarchy desktop (image)",
+    ".config/omarchy/backgrounds/hackerman/biker-road.jpg": "Omarchy desktop (image)",
+    ".config/omarchy/backgrounds/hackerman/soccer.jpg": "Omarchy desktop (image)",
     ".agents/skills/diagnose-crash/SKILL.md": "Omarchy vendored resource",
     ".agents/skills/diagnose-crash/reporting.md": "Omarchy vendored resource",
     ".agents/skills/omarchy/SKILL.md": "Omarchy vendored resource",
@@ -589,13 +985,12 @@
   },
   "excluded": [
     "credentials, history, sessions, caches, trust, models-store, node_modules",
-    "desktop configuration and Bash distribution runtime",
+    "Omarchy shipped samples/defaults, git-cloned themes, systemd enablement links and Bash distribution runtime",
     "inactive legacy .pi/npm/package.json pi-mcp-adapter range; no installed metadata",
     "managed-assets runtime index; package installer may refresh managed agents",
     "Herdr shipped mods/layouts, generated .d.ts/jsconfig, binaries and app state"
   ],
   "external_requirements": [
-    "Engram executable (ENGRAM_BIN optional)",
     "optional Herdr integration",
     "Omarchy/crash skill commands depend on Linux/Omarchy tools"
   ]

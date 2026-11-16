@@ -17,7 +17,9 @@ TREE_TARGETS = ('.agents/skills/', '.pi/agent/skills/', '.pi/agent/agents/',
                 '.pi/agent/chains/', '.pi/agent/extensions/', '.pi/agent/prompts/',
                 '.pi/agent/themes/', '.pi/agent/gentle-ai/support/',
                 '.config/fish/conf.d/', '.config/fish/functions/',
-                '.config/herdr-app/mods/', '.config/herdr-app/layouts/')
+                '.config/herdr-app/mods/', '.config/herdr-app/layouts/',
+                '.config/omarchy/hooks/', '.config/omarchy/backgrounds/', '.config/nvim/',
+                '.config/input-remapper-2/presets/', '.config/systemd/user/')
 FILE_TARGETS = {'.config/fish/config.fish', '.config/starship.toml',
                 '.pi/agent/settings.json', '.pi/agent/subagents.json',
                 '.pi/agent/mcp.json', '.pi/agent/keybindings.json',
@@ -29,7 +31,16 @@ FILE_TARGETS = {'.config/fish/config.fish', '.config/starship.toml',
                 '.config/hypr/hyprland.lua', '.config/hypr/autostart.lua',
                 '.config/hypr/bindings.lua', '.config/hypr/input.lua',
                 '.config/hypr/looknfeel.lua', '.config/hypr/monitors.lua',
-                '.config/hypr/hyprsunset.conf', '.config/hypr/xdph.conf'}
+                '.config/hypr/hyprsunset.conf', '.config/hypr/xdph.conf',
+                '.config/omarchy/shell.json', '.config/omarchy/extensions/omarchy-menu.jsonc',
+                '.config/omarchy/branding/about.txt', '.config/omarchy/branding/screensaver.txt',
+                '.config/omarchy/defaults/agent', '.config/omarchy/defaults/dictation',
+                '.config/alacritty/alacritty.toml', '.config/ghostty/config',
+                '.config/git/config', '.config/git/ignore',
+                '.config/herdr/config.toml', '.config/herdr/plugins.json',
+                '.config/btop/btop.conf', '.config/mise/config.toml', '.config/voxtype/config.toml',
+                '.config/input-remapper-2/config.json',
+                '.config/environment.d/omarchy-firefox-wayland.conf', '.config/mimeapps.list'}
 
 
 def relative(value):

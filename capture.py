@@ -38,6 +38,24 @@ HERDR_MOD_NAMES = ('mod.json', 'LICENSE')
 HYPR_SINGLES = tuple('.config/hypr/' + name for name in (
     'hyprland.lua', 'autostart.lua', 'bindings.lua', 'input.lua', 'looknfeel.lua',
     'monitors.lua', 'hyprsunset.conf', 'xdph.conf'))
+# Omarchy desktop: files that differ from or are absent in /usr/share/omarchy.
+# Shipped *.sample hooks/templates, lock files, enablement symlinks and git
+# clones of themes (reinstalled with `omarchy theme install`) are left out.
+DESKTOP_SINGLES = (
+    '.config/omarchy/shell.json', '.config/omarchy/extensions/omarchy-menu.jsonc',
+    '.config/omarchy/branding/about.txt', '.config/omarchy/branding/screensaver.txt',
+    '.config/omarchy/defaults/agent', '.config/omarchy/defaults/dictation',
+    '.config/alacritty/alacritty.toml', '.config/ghostty/config',
+    '.config/git/config', '.config/git/ignore',
+    '.config/herdr/config.toml', '.config/herdr/plugins.json',
+    '.config/btop/btop.conf', '.config/mise/config.toml', '.config/voxtype/config.toml',
+    '.config/input-remapper-2/config.json',
+    '.config/environment.d/omarchy-firefox-wayland.conf', '.config/mimeapps.list')
+DESKTOP_DIRECTORIES = ('.config/omarchy/hooks', '.config/nvim',
+                       '.config/input-remapper-2/presets', '.config/systemd/user')
+BINARY_DIRECTORIES = ('.config/omarchy/backgrounds',)
+BINARY_SUFFIXES = ('.jpg', '.jpeg', '.png', '.webp', '.gif')
+DESKTOP_SKIPPED_SUFFIXES = ('.sample', '.lock', '.log', '.sock')
 
 
 def audit(text, label):
@@ -55,7 +73,8 @@ def portable_text(text, home):
     for root in RESOURCE_ROOTS:
         prefix = str(home / root)
         text = re.sub(re.escape(prefix) + r'(?=/|[\s\"\'`\]\),:]|$)', '~/' + root, text)
-    if re.search(r'/home/[^/\s]+|/Users/[^/\s]+', text):
+    # `/home/user` is a documentation placeholder (e.g. btop.conf comments).
+    if re.search(r'/home/(?!user\b)[^/\s]+|/Users/[^/\s]+', text):
         raise ValueError('Unreviewed machine-specific home path (value suppressed)')
     return text
 
@@ -98,6 +117,22 @@ def walk_files(root):
             yield child
         else:
             raise ValueError('Non-regular source resource')
+
+
+def desktop_files(root):
+    """Personal files under a desktop config directory. Skips enablement
+    symlinks (systemd *.wants), hidden git clones and shipped samples."""
+    safety.no_links(root)
+    if not root.is_dir():
+        return
+    for child in sorted(root.iterdir()):
+        if child.is_symlink() or child.name in ('.git', 'node_modules'):
+            continue
+        if child.is_dir():
+            yield from desktop_files(child)
+        elif child.is_file() and not child.name.endswith(DESKTOP_SKIPPED_SUFFIXES):
+            safety.relative(child.name)
+            yield child
 
 
 def herdr_mod_files(directory):
@@ -252,6 +287,25 @@ def capture(repo, home, apply=False):
         safety.no_links(path)
         if path.is_file():
             add(path, relative, 'Hyprland')
+    for relative in DESKTOP_SINGLES:
+        path = home / relative
+        safety.no_links(path)
+        if path.is_file():
+            add(path, relative, 'Omarchy desktop')
+    for relative in DESKTOP_DIRECTORIES:
+        for file in desktop_files(home / relative):
+            add(file, relative + '/' + str(file.relative_to(home / relative)), 'Omarchy desktop')
+    for relative in BINARY_DIRECTORIES:
+        for file in desktop_files(home / relative):
+            if file.suffix.lower() not in BINARY_SUFFIXES:
+                raise ValueError('Unsupported file in binary directory: ' + file.name)
+            target = relative + '/' + str(file.relative_to(home / relative))
+            safety.relative(target)
+            encoded = file.read_bytes()
+            content['files/' + target] = encoded
+            records[target] = {'source': 'files/' + target, 'target': target,
+                               'sha256': hashlib.sha256(encoded).hexdigest(), 'mode': 0o644}
+            origins[target] = 'Omarchy desktop (image)'
     for relative in DIRECTORIES:
         root = home / relative
         if relative == '.agents/skills' and root.exists():
@@ -298,15 +352,15 @@ def capture(repo, home, apply=False):
     settings = json.loads(content.get('files/.pi/agent/settings.json', b'{}'))
     manifest = {'version': 1, 'files': [records[k] for k in sorted(records)],
                 'dependencies': {'pi': pi_metadata(), 'packages': settings.get('packages', []),
-                                 'mcp': {'context7': '@upstash/context7-mcp@2.2.5', 'engram': 'external executable; version not verified'}},
+                                 'mcp': sorted(json.loads(content.get('files/.pi/agent/mcp.json', b'{}')).get('mcpServers', {}))},
                 'redacted_fields': redactions,
                 'origins': origins,
                 'excluded': ['credentials, history, sessions, caches, trust, models-store, node_modules',
-                             'desktop configuration and Bash distribution runtime',
+                             'Omarchy shipped samples/defaults, git-cloned themes, systemd enablement links and Bash distribution runtime',
                              'inactive legacy .pi/npm/package.json pi-mcp-adapter range; no installed metadata',
                              'managed-assets runtime index; package installer may refresh managed agents',
                              'Herdr shipped mods/layouts, generated .d.ts/jsconfig, binaries and app state'],
-                'external_requirements': ['Engram executable (ENGRAM_BIN optional)', 'optional Herdr integration',
+                'external_requirements': ['optional Herdr integration',
                                           'Omarchy/crash skill commands depend on Linux/Omarchy tools']}
     content['manifest.json'] = (json.dumps(manifest, indent=2, ensure_ascii=False) + '\n').encode()
     print(('APPLY' if apply else 'DRY-RUN') + ': capture ' + str(len(records)) + ' files; redacted field count ' + str(len(redactions)))
