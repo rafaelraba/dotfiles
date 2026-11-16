@@ -2,186 +2,6 @@
   "version": 1,
   "files": [
     {
-      "source": "files/.agents/skills/_shared/README.md",
-      "target": ".agents/skills/_shared/README.md",
-      "sha256": "2fc179e025602c358b40b27f02420f849be2ee25660427ce8aa2522280b26129",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/engram-convention.md",
-      "target": ".agents/skills/_shared/engram-convention.md",
-      "sha256": "93dbc9b0c51bd4fb395126f540e9f1d5dca5f27d1dd54c856d742e2cfac94ab6",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/persistence-contract.md",
-      "target": ".agents/skills/_shared/persistence-contract.md",
-      "sha256": "e856e61b2056e1766a5529a0a3e6929997910cb36357b53a89da3533a32ceb0f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/research-lifecycle.md",
-      "target": ".agents/skills/_shared/research-lifecycle.md",
-      "sha256": "5076805762a85f03a177e07af2160b2e742f334d86b4b016853398c43ed1504c",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/review-ledger-contract-pi.md",
-      "target": ".agents/skills/_shared/review-ledger-contract-pi.md",
-      "sha256": "2d7ddd99f1c739a97f4a6b3929e5e2bdddcbf69aed69356395038d90bca25b2f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/review-ledger-contract.md",
-      "target": ".agents/skills/_shared/review-ledger-contract.md",
-      "sha256": "371c0fcd061e72fc45f241700dc7343b3a1d1d2a2cd8f8ee3dc5b66278e45b53",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/_shared/skill-resolver.md",
-      "target": ".agents/skills/_shared/skill-resolver.md",
-      "sha256": "5b6f893c770bb9e3c9bc647f5595b3cfa996890f34c460ddd3094f8180797dfb",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/branch-pr/SKILL.md",
-      "target": ".agents/skills/branch-pr/SKILL.md",
-      "sha256": "8553fdde3397c7dc1c2fda2b4ca848baf5d9185d0db65635b151755c4e627dc8",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/chained-pr/SKILL.md",
-      "target": ".agents/skills/chained-pr/SKILL.md",
-      "sha256": "8aba3c6ec9411851f5687aa9e42ebf9618f7dd8566acc9a64eb025f54db2244f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/chained-pr/references/chaining-details.md",
-      "target": ".agents/skills/chained-pr/references/chaining-details.md",
-      "sha256": "09534b2a10a6819721cbb4b08a59bcb859b2859e65bb2977c7b979a2307e10f3",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-doc-create/SKILL.md",
-      "target": ".agents/skills/codely-doc-create/SKILL.md",
-      "sha256": "ac6a287c22e4474df1e97dfe65c4fa7cd5ac64302038a5aca70391fb4239ea7b",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-doc-create/resources/documentation-guidelines.md",
-      "target": ".agents/skills/codely-doc-create/resources/documentation-guidelines.md",
-      "sha256": "0b41d6972fef4614fa16900f1fa95cff2fdba398a05e1600ed6790aaf64cd462",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-git-conventional-commit/SKILL.md",
-      "target": ".agents/skills/codely-git-conventional-commit/SKILL.md",
-      "sha256": "3da39d95b503d8aa891724ed93e4f389a3d079393ee040c1d1c2584dab16c2b7",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-git-conventional-commit/resources/commit-messages.md",
-      "target": ".agents/skills/codely-git-conventional-commit/resources/commit-messages.md",
-      "sha256": "7474b7ea9ed72bdc8a246cdd6a82affe8247297e7d3eb84b5666489317f0f4e3",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/SKILL.md",
-      "target": ".agents/skills/codely-openspec-spec-create-from-code/SKILL.md",
-      "sha256": "90c1677afe3fd5ec7c7a006274d1476e60db462ee47c1b3573a5da1c78c6968a",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md",
-      "target": ".agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md",
-      "sha256": "ac30ad8079daa943176c3fd41992187fc5bed56f910b72fe44e1ee9f74ec4939",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md",
-      "target": ".agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md",
-      "sha256": "3b1ce545bd7c434b5fe2387c1c5e96b6a956726d081050ffb875dac6c23270d6",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-github/SKILL.md",
-      "target": ".agents/skills/codely-plan-create-github/SKILL.md",
-      "sha256": "5382597cbb6bbb33de3336d8e8a873ee51ac28bab9d354a34b77e9c1c32f1a13",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-github/resources/plan-guidelines.md",
-      "target": ".agents/skills/codely-plan-create-github/resources/plan-guidelines.md",
-      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-gitlab/SKILL.md",
-      "target": ".agents/skills/codely-plan-create-gitlab/SKILL.md",
-      "sha256": "fa005beaa33114ccbc4b4277e82f9a54c3b85cda4d6e905af14e5c2838471d44",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md",
-      "target": ".agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md",
-      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-subagents/SKILL.md",
-      "target": ".agents/skills/codely-plan-create-subagents/SKILL.md",
-      "sha256": "b9475f96cd5ac789ebf67e6bde90f44532d7e3051ced7e94a7e7606952ac8a0d",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md",
-      "target": ".agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md",
-      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create/SKILL.md",
-      "target": ".agents/skills/codely-plan-create/SKILL.md",
-      "sha256": "222de7261f5ddeb1749b02c9ddf3d6476678d58f0da245305f5cd82c764075e0",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-create/resources/plan-guidelines.md",
-      "target": ".agents/skills/codely-plan-create/resources/plan-guidelines.md",
-      "sha256": "18384425274d102a642ddb12843466a895d7e48ce16ce577a95a01b2eb6a7a9f",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-phase-implement-github/SKILL.md",
-      "target": ".agents/skills/codely-plan-phase-implement-github/SKILL.md",
-      "sha256": "80a3ed516c624961bacd681282a22139434eb27f31fcdb706c6042f15d14d7e7",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-phase-implement-gitlab/SKILL.md",
-      "target": ".agents/skills/codely-plan-phase-implement-gitlab/SKILL.md",
-      "sha256": "ab749ad5af411fe7b6aa36cf7a1c4fd430233b0e8f82776df81679ad478f8b60",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/codely-plan-phase-implement/SKILL.md",
-      "target": ".agents/skills/codely-plan-phase-implement/SKILL.md",
-      "sha256": "4fdd4103a7d7502ad857eb7f1d74922d8946b3f0eacde3f45fd0e6f772435e92",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/cognitive-doc-design/SKILL.md",
-      "target": ".agents/skills/cognitive-doc-design/SKILL.md",
-      "sha256": "80dcaeca45c35e830939ef5440ca270b147f6370e4afcb47cdab762097f8cde0",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/comment-writer/SKILL.md",
-      "target": ".agents/skills/comment-writer/SKILL.md",
-      "sha256": "cb980612f7237b31a4afea87899275ba20f1f621ba237ecd4a3b440f0cf2e6da",
-      "mode": 420
-    },
-    {
       "source": "files/.agents/skills/diagnose-crash/SKILL.md",
       "target": ".agents/skills/diagnose-crash/SKILL.md",
       "sha256": "0762bb8c913a9026a143ee7213caebe334654efeb0d37949aa05ddd1e2639072",
@@ -191,48 +11,6 @@
       "source": "files/.agents/skills/diagnose-crash/reporting.md",
       "target": ".agents/skills/diagnose-crash/reporting.md",
       "sha256": "00f304bd6b2a55252f16f3b2c1e0881317c19722e6bbd5f956fc2114bedb442a",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/gentle-ai-bench/SKILL.md",
-      "target": ".agents/skills/gentle-ai-bench/SKILL.md",
-      "sha256": "49ac672887b4afe88b107de17edd8c4dff34bc4ada54903bcd45a68532dcc91e",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/go-testing/SKILL.md",
-      "target": ".agents/skills/go-testing/SKILL.md",
-      "sha256": "87205f2eff2f5dad905117e0fe7545ed432b728522ee742755fd25b22b612df3",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/go-testing/references/examples.md",
-      "target": ".agents/skills/go-testing/references/examples.md",
-      "sha256": "4db924d33425f317d5cc0b5b8881c4015bdc0193e3c2a218939352ae85cc369e",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/issue-creation/SKILL.md",
-      "target": ".agents/skills/issue-creation/SKILL.md",
-      "sha256": "99beff12891c616f6949ddbfd5192f537f5b49c9692642e5f4cfbdb6c556f2b4",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/issue-creation/references/delegated-workflow-actions.md",
-      "target": ".agents/skills/issue-creation/references/delegated-workflow-actions.md",
-      "sha256": "8bc27e680e31cc92ed3972d9e5ebf64a711d81567247540b0222111a61383cd9",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/judgment-day/SKILL.md",
-      "target": ".agents/skills/judgment-day/SKILL.md",
-      "sha256": "ac2a4fcfd762d8e3a873742f05a71287f96294f5063d740957f81b41ff8b8486",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/judgment-day/references/prompts-and-formats.md",
-      "target": ".agents/skills/judgment-day/references/prompts-and-formats.md",
-      "sha256": "583f50d14a7d6229056c2df49868f12cb2d44c8da0c4bf331e61973d79620de5",
       "mode": 420
     },
     {
@@ -287,54 +65,6 @@
       "source": "files/.agents/skills/omarchy/theming.md",
       "target": ".agents/skills/omarchy/theming.md",
       "sha256": "2122773366e589c36ddd9a4b74b9bb96da96190b5f1434197e0a1ffad0942d36",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/rdd-defect-workflow/SKILL.md",
-      "target": ".agents/skills/rdd-defect-workflow/SKILL.md",
-      "sha256": "7dcabfdf0aee1ddc9e509107b8b58b96ec6e0b9428732f7fe621001847e2a405",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/skill-creator/SKILL.md",
-      "target": ".agents/skills/skill-creator/SKILL.md",
-      "sha256": "2e560aec25d3e6f880626b894333c141c7dd98e6a0f3c35af9693b6e8538f357",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/skill-creator/references/skill-style-guide.md",
-      "target": ".agents/skills/skill-creator/references/skill-style-guide.md",
-      "sha256": "64debd903403a73fe42a953100c17378aceb9c10061bec252c5515499f12f5fa",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/skill-improver/SKILL.md",
-      "target": ".agents/skills/skill-improver/SKILL.md",
-      "sha256": "4b71aa7f242259a3e4ef8f5c87c591e154b2fe1ef5277c9d7428ba2fa678a151",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/skill-improver/references/skill-style-guide.md",
-      "target": ".agents/skills/skill-improver/references/skill-style-guide.md",
-      "sha256": "64debd903403a73fe42a953100c17378aceb9c10061bec252c5515499f12f5fa",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/skill-registry/SKILL.md",
-      "target": ".agents/skills/skill-registry/SKILL.md",
-      "sha256": "bdec1ec111d349c5226f2de0a414a6e195ace19d073c81c9cdb4485c93facbc7",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/systemic-issue-triage/SKILL.md",
-      "target": ".agents/skills/systemic-issue-triage/SKILL.md",
-      "sha256": "d0562fa1e2f8cee55222a208878821936922e0ac5d8702c204ae53aa0963f014",
-      "mode": 420
-    },
-    {
-      "source": "files/.agents/skills/work-unit-commits/SKILL.md",
-      "target": ".agents/skills/work-unit-commits/SKILL.md",
-      "sha256": "d1f25b154dc0a2e55f1bfbe9b46bd10bf3dd57c3e9e54ae671b5d131623eaead",
       "mode": 420
     },
     {
@@ -716,72 +446,6 @@
       "mode": 420
     },
     {
-      "source": "files/.pi/agent/agents/gentle-ai-explore.md",
-      "target": ".pi/agent/agents/gentle-ai-explore.md",
-      "sha256": "27e980f28c1ca03474b7db9e539ec54dbb9276622e315ba12055b73a8e67fd12",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/gentle-ai-verify.md",
-      "target": ".pi/agent/agents/gentle-ai-verify.md",
-      "sha256": "579bf68cf3bac779818514159d2b716c9bbc47c5be687e2707b8cb323bd7b2fa",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/gentle-ai-worker.md",
-      "target": ".pi/agent/agents/gentle-ai-worker.md",
-      "sha256": "6e0e83a3ad60409d4d41a28fea46b846e171a0193f2e0d2ffc96982e080e9fe3",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/jd-fix-agent.md",
-      "target": ".pi/agent/agents/jd-fix-agent.md",
-      "sha256": "42e77a1bcacacbbf52a3226bcc07bfda1a2ef3420245484f25452fc7230007c5",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/jd-judge-a.md",
-      "target": ".pi/agent/agents/jd-judge-a.md",
-      "sha256": "bb1c660f2d119ea9cf25afccdefa685297dce33ff62e3d7396454a1d4823c3fc",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/jd-judge-b.md",
-      "target": ".pi/agent/agents/jd-judge-b.md",
-      "sha256": "5d5b196ae813d9afeaf83a6865a3a55b162c8d26b777a4850ad478a54fd0952d",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/review-readability.md",
-      "target": ".pi/agent/agents/review-readability.md",
-      "sha256": "80c28b8422682dd8e3b7122c8bcfd2b7ce75f29cd1e5fa5e58679369fe56d689",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/review-reliability.md",
-      "target": ".pi/agent/agents/review-reliability.md",
-      "sha256": "64838b2d897c5726a6bb2a8b114feee15dcd08a9d2eceab04d640a962c49790d",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/review-resilience.md",
-      "target": ".pi/agent/agents/review-resilience.md",
-      "sha256": "52f1489d73b03f771d75ee1a9e81c78986b8325a63a41b4f7542166b1578de60",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/agents/review-risk.md",
-      "target": ".pi/agent/agents/review-risk.md",
-      "sha256": "ffd327ee97fb0b614950281f653acdd60edae174a1ae701164e328d3870e03f5",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/chains/4r-review.chain.md",
-      "target": ".pi/agent/chains/4r-review.chain.md",
-      "sha256": "7d96aabd1426a388d1bde371f141d0c3ba836cee93cd54971a28fe1204942b18",
-      "mode": 420
-    },
-    {
       "source": "files/.pi/agent/extensions/herdr-agent-state.ts",
       "target": ".pi/agent/extensions/herdr-agent-state.ts",
       "sha256": "9b1c41cd72520fc2abe5f2a2aec995c12a926cce844df472c7fd5fcae4f4dbfa",
@@ -794,15 +458,9 @@
       "mode": 420
     },
     {
-      "source": "files/.pi/agent/gentle-ai/support/strict-tdd-verify.md",
-      "target": ".pi/agent/gentle-ai/support/strict-tdd-verify.md",
-      "sha256": "ef1705bbf22a41285934705977396bc3fa2ea0bc378f74623343a467cfcb4996",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/gentle-ai/support/strict-tdd.md",
-      "target": ".pi/agent/gentle-ai/support/strict-tdd.md",
-      "sha256": "ca7a75e8e407a00e367fe0168aba6e45bd8297863b1bd199210b5ca84b562223",
+      "source": "files/.pi/agent/extensions/statusline.ts",
+      "target": ".pi/agent/extensions/statusline.ts",
+      "sha256": "4f42679983d4ed7d73d5c9bedef1ce380237cbeae67d2cfd45c05c04bd5aa400",
       "mode": 420
     },
     {
@@ -814,49 +472,19 @@
     {
       "source": "files/.pi/agent/mcp.json",
       "target": ".pi/agent/mcp.json",
-      "sha256": "1adf1a06f77f84f4997f1ce6c884e19de720351a1e469b90f6edeb33595fe64b",
+      "sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/settings.json",
       "target": ".pi/agent/settings.json",
-      "sha256": "d1013339cf3ea412459078868f77fc1b07c744b85b0ce27ee7c31501ff874530",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/agent/subagents.json",
-      "target": ".pi/agent/subagents.json",
-      "sha256": "ed937adbe85932d07affdc9d7582c42dd5597610c2dadf4d6f6d64ebe611d3fa",
+      "sha256": "b8d195da1f6785239a9902d0a22a02f028af28debb6fd6420bc7909c0eb400e6",
       "mode": 420
     },
     {
       "source": "files/.pi/agent/themes/omarchy-system.json",
       "target": ".pi/agent/themes/omarchy-system.json",
       "sha256": "89b7606eaa954986012452c8970d2c7434d721432dc6f204aedf0254f1394f89",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/gentle-ai/banner.json",
-      "target": ".pi/gentle-ai/banner.json",
-      "sha256": "7bff3895f93fa006019a2e3fc1e69a9e79c0738a34ab07579f9ab8638e5cacdf",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/gentle-ai/models.json",
-      "target": ".pi/gentle-ai/models.json",
-      "sha256": "bdfe1b99925194dbc10602074d749ab314ffda630f485c1dcaf92d47d2f2ef35",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/gentle-ai/persona.json",
-      "target": ".pi/gentle-ai/persona.json",
-      "sha256": "e46cda8e38e0b758525262ff5297e196f8d291bdc758d502cae9f05465fb3ae9",
-      "mode": 420
-    },
-    {
-      "source": "files/.pi/gentle-ai/profiles.json",
-      "target": ".pi/gentle-ai/profiles.json",
-      "sha256": "550b13dfe9fc16bc31665e0cea214f244007bf7e75114f0f5348044d008b4c2f",
       "mode": 420
     }
   ],
@@ -867,8 +495,6 @@
       "node": ">=22.19.0"
     },
     "packages": [
-      "npm:gentle-pi@4.7.0",
-      "npm:gentle-engram@0.7.0",
       "npm:pi-web-access@0.47.0",
       "npm:pi-btw@0.8.1",
       "npm:pi-claude-bridge@0.12.0"
@@ -883,12 +509,7 @@
     ".config/fish/config.fish": "local",
     ".config/starship.toml": "local",
     ".pi/agent/settings.json": "local",
-    ".pi/agent/subagents.json": "local",
     ".pi/agent/keybindings.json": "local",
-    ".pi/gentle-ai/persona.json": "local",
-    ".pi/gentle-ai/banner.json": "local",
-    ".pi/gentle-ai/models.json": "local",
-    ".pi/gentle-ai/profiles.json": "local",
     ".pi/agent/mcp.json": "local",
     ".config/herdr-app/keys.json": "Herdr app (personal)",
     ".config/herdr-app/settings.json": "Herdr app (personal)",
@@ -945,45 +566,8 @@
     ".config/hypr/monitors.lua": "Hyprland",
     ".config/hypr/hyprsunset.conf": "Hyprland",
     ".config/hypr/xdph.conf": "Hyprland",
-    ".agents/skills/_shared/README.md": "local",
-    ".agents/skills/_shared/engram-convention.md": "local",
-    ".agents/skills/_shared/persistence-contract.md": "local",
-    ".agents/skills/_shared/research-lifecycle.md": "local",
-    ".agents/skills/_shared/review-ledger-contract-pi.md": "local",
-    ".agents/skills/_shared/review-ledger-contract.md": "local",
-    ".agents/skills/_shared/skill-resolver.md": "local",
-    ".agents/skills/branch-pr/SKILL.md": "local",
-    ".agents/skills/chained-pr/SKILL.md": "local",
-    ".agents/skills/chained-pr/references/chaining-details.md": "local",
-    ".agents/skills/codely-doc-create/SKILL.md": "local",
-    ".agents/skills/codely-doc-create/resources/documentation-guidelines.md": "local",
-    ".agents/skills/codely-git-conventional-commit/SKILL.md": "local",
-    ".agents/skills/codely-git-conventional-commit/resources/commit-messages.md": "local",
-    ".agents/skills/codely-openspec-spec-create-from-code/SKILL.md": "local",
-    ".agents/skills/codely-openspec-spec-create-from-code/resources/evidence-guidelines.md": "local",
-    ".agents/skills/codely-openspec-spec-create-from-code/resources/spec-format.md": "local",
-    ".agents/skills/codely-plan-create/SKILL.md": "local",
-    ".agents/skills/codely-plan-create/resources/plan-guidelines.md": "local",
-    ".agents/skills/codely-plan-create-github/SKILL.md": "local",
-    ".agents/skills/codely-plan-create-github/resources/plan-guidelines.md": "local",
-    ".agents/skills/codely-plan-create-gitlab/SKILL.md": "local",
-    ".agents/skills/codely-plan-create-gitlab/resources/plan-guidelines.md": "local",
-    ".agents/skills/codely-plan-create-subagents/SKILL.md": "local",
-    ".agents/skills/codely-plan-create-subagents/resources/plan-guidelines.md": "local",
-    ".agents/skills/codely-plan-phase-implement/SKILL.md": "local",
-    ".agents/skills/codely-plan-phase-implement-github/SKILL.md": "local",
-    ".agents/skills/codely-plan-phase-implement-gitlab/SKILL.md": "local",
-    ".agents/skills/cognitive-doc-design/SKILL.md": "local",
-    ".agents/skills/comment-writer/SKILL.md": "local",
     ".agents/skills/diagnose-crash/SKILL.md": "Omarchy vendored resource",
     ".agents/skills/diagnose-crash/reporting.md": "Omarchy vendored resource",
-    ".agents/skills/gentle-ai-bench/SKILL.md": "local",
-    ".agents/skills/go-testing/SKILL.md": "local",
-    ".agents/skills/go-testing/references/examples.md": "local",
-    ".agents/skills/issue-creation/SKILL.md": "local",
-    ".agents/skills/issue-creation/references/delegated-workflow-actions.md": "local",
-    ".agents/skills/judgment-day/SKILL.md": "local",
-    ".agents/skills/judgment-day/references/prompts-and-formats.md": "local",
     ".agents/skills/omarchy/SKILL.md": "Omarchy vendored resource",
     ".agents/skills/omarchy/capture.md": "Omarchy vendored resource",
     ".agents/skills/omarchy/contributing.md": "Omarchy vendored resource",
@@ -993,30 +577,10 @@
     ".agents/skills/omarchy/theming.md": "Omarchy vendored resource",
     ".agents/skills/omarchy-app/SKILL.md": "Omarchy vendored resource",
     ".agents/skills/omarchy-app/templates.md": "Omarchy vendored resource",
-    ".agents/skills/rdd-defect-workflow/SKILL.md": "local",
-    ".agents/skills/skill-creator/SKILL.md": "local",
-    ".agents/skills/skill-creator/references/skill-style-guide.md": "local",
-    ".agents/skills/skill-improver/SKILL.md": "local",
-    ".agents/skills/skill-improver/references/skill-style-guide.md": "local",
-    ".agents/skills/skill-registry/SKILL.md": "local",
-    ".agents/skills/systemic-issue-triage/SKILL.md": "local",
-    ".agents/skills/work-unit-commits/SKILL.md": "local",
-    ".pi/agent/agents/gentle-ai-explore.md": "local",
-    ".pi/agent/agents/gentle-ai-verify.md": "local",
-    ".pi/agent/agents/gentle-ai-worker.md": "local",
-    ".pi/agent/agents/jd-fix-agent.md": "local",
-    ".pi/agent/agents/jd-judge-a.md": "local",
-    ".pi/agent/agents/jd-judge-b.md": "local",
-    ".pi/agent/agents/review-readability.md": "local",
-    ".pi/agent/agents/review-reliability.md": "local",
-    ".pi/agent/agents/review-resilience.md": "local",
-    ".pi/agent/agents/review-risk.md": "local",
-    ".pi/agent/chains/4r-review.chain.md": "local",
     ".pi/agent/extensions/herdr-agent-state.ts": "local",
     ".pi/agent/extensions/moshi-hooks.ts": "local",
+    ".pi/agent/extensions/statusline.ts": "local",
     ".pi/agent/themes/omarchy-system.json": "local",
-    ".pi/agent/gentle-ai/support/strict-tdd-verify.md": "local",
-    ".pi/agent/gentle-ai/support/strict-tdd.md": "local",
     ".config/fish/functions/chrome-x.fish": "local",
     ".config/fish/functions/fish_user_key_bindings.fish": "local",
     ".config/fish/functions/h.fish": "local",

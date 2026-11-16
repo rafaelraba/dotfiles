@@ -4,8 +4,6 @@
   "defaultThinkingLevel": "medium",
   "lastChangelogVersion": "1.5.2",
   "packages": [
-    "npm:gentle-pi@4.7.0",
-    "npm:gentle-engram@0.7.0",
     "npm:pi-web-access@0.47.0",
     "npm:pi-btw@0.8.1",
     "npm:pi-claude-bridge@0.12.0"

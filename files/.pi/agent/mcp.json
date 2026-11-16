@@ -1,24 +1,3 @@
 {
-  "mcpServers": {
-    "codegraph": {
-      "args": [
-        "serve",
-        "--mcp"
-      ],
-      "command": "codegraph"
-    },
-    "context7": {
-      "args": [],
-      "command": "~/.pi/mcp/node_modules/.bin/context7-mcp"
-    },
-    "engram": {
-      "args": [
-        "-e",
-        "const { spawn } = require('node:child_process'); const bin = process.env.ENGRAM_BIN || 'engram'; const child = spawn(bin, ['mcp', '--tools=agent'], { stdio: 'inherit' }); child.on('error', () => process.exit(127)); child.on('exit', (code, signal) => { if (typeof code === 'number') process.exit(code); process.kill(process.pid, signal || 'SIGTERM'); });"
-      ],
-      "command": "node",
-      "directTools": false,
-      "lifecycle": "lazy"
-    }
-  }
+  "mcpServers": {}
 }
