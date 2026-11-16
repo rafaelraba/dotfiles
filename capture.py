@@ -17,15 +17,14 @@ _spec.loader.exec_module(safety)
 
 SECRET = re.compile(r'(?i)(?:-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\b(?:gh[pousr]_|github_pat_|sk-(?:proj-)?)[A-Za-z0-9_-]{20,}|\beyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)')
 SENSITIVE_KEY = re.compile(r'(?i)(?:api[_-]?key|secret|password|authorization|token|credential)')
-RESOURCE_ROOTS = ('.agents/skills', '.pi/agent', '.pi/gentle-ai')
+RESOURCE_ROOTS = ('.agents/skills', '.pi/agent')
 DIRECTORIES = ('.agents/skills', '.pi/agent/agents', '.pi/agent/chains',
                '.pi/agent/extensions', '.pi/agent/prompts', '.pi/agent/themes',
-               '.pi/agent/gentle-ai/support', '.config/fish/conf.d', '.config/fish/functions')
+               '.config/fish/conf.d', '.config/fish/functions')
 SINGLES = ('.config/fish/config.fish', '.config/starship.toml',
            '.pi/agent/settings.json', '.pi/agent/subagents.json', '.pi/agent/keybindings.json',
            '.pi/agent/AGENTS.md', '.pi/agent/SYSTEM.md', '.pi/agent/APPEND_SYSTEM.md',
-           '.pi/gentle-ai/persona.json', '.pi/gentle-ai/banner.json',
-           '.pi/gentle-ai/models.json', '.pi/gentle-ai/profiles.json', '.pi/agent/mcp.json')
+           '.pi/agent/mcp.json')
 OMARCHY = Path('/usr/share/omarchy/default/agents/skills')
 # Herdr app: only the person's own files. Herdr rewrites its shipped mods and
 # layouts, AGENTS.md and the .d.ts/jsconfig files on every start, and the rest

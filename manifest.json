@@ -70,7 +70,7 @@
     {
       "source": "files/.claude/settings.json",
       "target": ".claude/settings.json",
-      "sha256": "4df39fff78ce868dd6a90da44736354cdeba6993f6e8ae64218d4e939ffa6605",
+      "sha256": "bbc9bd74d61f98093de679f263f53d721b6366ad4ee2bf20665af3046d7b7fbf",
       "mode": 420
     },
     {

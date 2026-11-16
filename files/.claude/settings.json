@@ -53,7 +53,7 @@
       "### User-specific",
       "**Primary use of Claude Code**: software development",
       "**Trusted repo**: ~ — but this directory has no tracked files and no git remotes configured; there is no verifiable trusted repo to scope to yet",
-      "**Org-specific CLIs**: None configured — observed personal/system tools (hyprctl, fish, grim, gentle-ai, pacman, mise, tailscale, gh) appear to be personal workstation tooling, not org-specific"
+      "**Org-specific CLIs**: None configured — observed personal/system tools (hyprctl, fish, grim, pacman, mise, tailscale, gh) appear to be personal workstation tooling, not org-specific"
     ]
   }
 }
